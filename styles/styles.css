@@ -46,7 +46,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   margin-right: 1.5rem;
-  width: 44px;
+  width: calc($size * 2);
 }
 .mode-wrapper .light {
   background: #ffd500;
