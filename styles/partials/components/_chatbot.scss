@@ -49,7 +49,7 @@
     max-width: 1280px;
 }    
 .chatbot {
-    @include flex(column nowrap, flex-end, end, auto, flex-end, 0);
+    @include flex(column nowrap, flex-end, flex-end, auto, flex-end, 0);
     position: fixed;
     bottom: 0;
     right: 0;

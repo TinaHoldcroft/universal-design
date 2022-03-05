@@ -1,13 +1,13 @@
 //import Head from 'next/head';
 import Generator from './Generator';
 
-export default function Home() {
+export default function GeneratorPage() {
 
     return (
         <>
-        <img src='/background.svg'/>
+            <img className="generator-background" src='/background.svg' />
             <div className="generator-container">
-                <Generator/>
+                <Generator />
             </div>
         </>
     )

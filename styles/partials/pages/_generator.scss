@@ -1,0 +1,13 @@
+.generator-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -9;
+    width: 100vw;
+    height: auto;
+}
+
+.braille-generator {
+    @include flex(column nowrap, space-around, center, center, center, 0rem);
+
+}
