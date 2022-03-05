@@ -153,16 +153,6 @@ body {
   display: none;
 }
 
-.sr-only:not(:focus):not(:active) {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
 main {
   display: -webkit-box;
   display: -moz-box;
@@ -267,15 +257,15 @@ p {
   height: 22px;
   width: 22px;
   transform: scale(0.9);
-  margin-right: calc(-22px* 0.48);
-  margin-left: calc(22px* 0.48);
+  margin-right: calc(-22px * 0.48);
+  margin-left: calc(22px * 0.48);
   transition: margin 1.2s ease-out;
 }
 
 [dark] .mode-wrapper .dark {
   transition: margin 1.2s ease-out;
-  margin-right: calc(22px* 0.48);
-  margin-left: calc(-22px* 0.48);
+  margin-right: calc(22px * 0.48);
+  margin-left: calc(-22px * 0.48);
   background: #242424;
 }
 
@@ -788,16 +778,6 @@ p {
     opacity: 0.6;
     transform: translate(0, 0);
   }
-  /*
-  0% {
-      opacity: 1;
-      transform: scale(1);
-  }
-  50% {
-      opacity: .25;
-      transform: scale(.75);
-  }
-  */
 }
 .message-loader {
   display: flex;

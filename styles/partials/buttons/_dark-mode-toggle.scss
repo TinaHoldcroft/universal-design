@@ -17,15 +17,15 @@ $size: 22px;
         height: $size;
         width: $size;
         transform: scale(0.9);
-        margin-right: calc(-#{$size}* 0.48);
-        margin-left: calc(#{$size}* 0.48);
+        margin-right: calc(-#{$size} * 0.48);
+        margin-left: calc(#{$size} * 0.48);
         transition: margin 1.2s ease-out;
     }
 }
 [dark] .mode-wrapper .dark {
     transition: margin 1.2s ease-out;
-    margin-right: calc(#{$size}* 0.48);
-    margin-left: calc(-#{$size}* 0.48);
+    margin-right: calc(#{$size} * 0.48);
+    margin-left: calc(-#{$size} * 0.48);
     background: $black;
 }
 [dark] .mode-wrapper .light {

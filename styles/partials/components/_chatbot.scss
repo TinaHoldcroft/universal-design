@@ -26,7 +26,7 @@
         ($radius * 2) ($radius * 2),  //bottom right corner  
         100% calc(100% - #{$radius * 2}),  //horizontal gradient  
         calc(100% - #{$radius * 2}) 100%,  //vertical gradient 
-        (39px / 2) (25px / 2); //bottom right icon
+        calc(39px / 2) calc(25px / 2); //bottom right icon
     mask-repeat: no-repeat;
     padding: 1em;
     line-height: 1.1em + $font-size;
@@ -37,11 +37,9 @@
     //-webkit-transform: scaleX(-1);
     //transform: scaleX(-1);
 }
-
 .placeholder {
     max-width: 1000px;
 }
-
 .chatbot-page {
     @include flex(column nowrap, flex-start, stretch, auto, flex-start, 0);
     height: 100vh;
@@ -114,16 +112,6 @@ $height: -0.25rem;
     0% { opacity: 0.6; transform: translate(0,0);}
     25% { opacity: 1; transform: translate(0,-0.25rem); }
     50% { opacity: 0.6; transform: translate(0,0); }
-    /*
-    0% {
-        opacity: 1;
-        transform: scale(1);
-    }
-    50% {
-        opacity: .25;
-        transform: scale(.75);
-    }
-    */
 }
 .message-loader {
     display: flex;
@@ -146,5 +134,3 @@ $height: -0.25rem;
     .two {  animation: message-loader 0.8s ease-in-out 0.4s infinite; }
     .three {  animation: message-loader 0.8s ease-in-out 0.6s infinite; }
 }
-
-  //input in focus = message loading
