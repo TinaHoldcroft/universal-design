@@ -1,0 +1,150 @@
+@mixin chatBubble(
+    $radius: 12.5px,
+    $font-size: 0.7em,
+    $background: $light-grey
+){
+    mask-image:
+    radial-gradient(#fff ($radius - 0.5), #fff0 $radius), //top left corner
+    radial-gradient(#fff ($radius - 0.5), #fff0 $radius), //top right corner
+    radial-gradient(#fff ($radius - 0.5), #fff0 $radius), //bottom left corner
+    radial-gradient(#fff ($radius - 0.5), #fff0 $radius), //bottom right corner
+    linear-gradient(#fff, #fff), //horizontal gradient
+    linear-gradient(#fff, #fff), //vertical gradient
+    url('data:image/svg+xml;utf8,<svg width="39" height="25" viewBox="0 0 39 25" xmlns="http://www.w3.org/2000/svg"><path d="M38.4998 24.5C27.6998 22.1 22.9998 7.5 21.9998 0.5C11.8331 1.83333 -6.30022 6.3 2.49978 13.5C13.4998 22.5 21.9998 24.5 38.4998 24.5Z" /></svg>'); // Bottom right icon
+    mask-position: 
+        0 0, //top left corner
+        100% 0, //top right corner
+        0 100%, //bottom left corner
+        100% 100%, //bottom right corner
+        0 $radius, //borizontal gradient
+        $radius 0, //vertical gradient
+        100% 100%; //bottom right icon
+    mask-size:
+        ($radius * 2) ($radius * 2),  //top left corner  
+        ($radius * 2) ($radius * 2),  //top right corner  
+        ($radius * 2) ($radius * 2),  //bottom left corner  
+        ($radius * 2) ($radius * 2),  //bottom right corner  
+        100% calc(100% - #{$radius * 2}),  //horizontal gradient  
+        calc(100% - #{$radius * 2}) 100%,  //vertical gradient 
+        (39px / 2) (25px / 2); //bottom right icon
+    mask-repeat: no-repeat;
+    padding: 1em;
+    line-height: 1.1em + $font-size;
+    width: fit-content;
+    font-size: $font-size;
+    margin-left: auto;
+    background:  $background;
+    //-webkit-transform: scaleX(-1);
+    //transform: scaleX(-1);
+}
+
+.placeholder {
+    max-width: 1000px;
+}
+
+.chatbot-page {
+    @include flex(column nowrap, flex-start, stretch, auto, flex-start, 0);
+    height: 100vh;
+    width: 100%;
+    max-width: 1280px;
+}    
+.chatbot {
+    @include flex(column nowrap, flex-end, end, auto, flex-end, 0);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    img {
+        width: 3.8rem;
+        margin: 1vmax;
+    }
+    figcaption { //bubble
+        position: fixed;
+        bottom: 3.35rem;
+        right: 4.5rem;
+        @include chatBubble();
+    }
+}
+.chat-window {
+    @include flex(column nowrap, flex-start, stretch, auto, flex-start, 0);
+    position: fixed;
+    bottom: 0.5vmax;
+    right: 0.5vmax;
+    background-color: $white;
+    padding: 5vmax;
+    border: solid 2px $yellow;
+    max-width: 100vw;
+    min-height: 50vh;
+    border-radius: 15px;
+    .right, .left {
+        @include flex(row nowrap, flex-start, stretch, auto, flex-start, 0);
+    }
+    img {
+        height: 35px;
+        width: 35px;
+        border: solid 6px $white;
+        border-radius: 50%;
+        outline: solid 2px $yellow;
+        margin-top: 10px;
+    }
+    #close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: transparent;
+        border: none;
+        margin: 0.3rem 0.75rem;
+        font-size: 1.5em;
+    }
+    p {
+        padding: 1vmax;
+        border-radius: 10px;
+        font-size: 0.7em;
+        margin: 1vmax;
+        background-color: $light-grey;
+    }
+    &.--close {
+        display: none;
+    }
+}
+
+$height: -0.25rem;
+
+@keyframes message-loader {
+    0% { opacity: 0.6; transform: translate(0,0);}
+    25% { opacity: 1; transform: translate(0,-0.25rem); }
+    50% { opacity: 0.6; transform: translate(0,0); }
+    /*
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: .25;
+        transform: scale(.75);
+    }
+    */
+}
+.message-loader {
+    display: flex;
+    position: relative;
+    margin: 0;
+    align-items: center;
+    flex-flow: row;
+    gap: 0.25rem;
+    div {
+        width: 0.375rem;
+        height: 0.375rem;
+        border-radius: 0.25rem;
+        background-color: rgba(95, 95, 95, 0.75);	
+    }
+    &.margin { margin: 0.35rem 0 0.2rem 0; }
+    &:nth-child(1) {display: none;}
+}
+.message-loader {
+    .one { animation: message-loader 0.8s ease-in-out 0.2s infinite; }
+    .two {  animation: message-loader 0.8s ease-in-out 0.4s infinite; }
+    .three {  animation: message-loader 0.8s ease-in-out 0.6s infinite; }
+}
+
+  //input in focus = message loading

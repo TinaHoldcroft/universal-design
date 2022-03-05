@@ -19,3 +19,147 @@
     align-content: $align-content;
     gap: $gap;
 }
+
+@mixin hover-underline($weight: 2px, $background: $yellow) {
+    position: relative;
+    display: inline-block;
+    &::after {
+        position: absolute;
+        left: 0;
+        content: "";
+        width: 100%;
+        height: $weight;
+        bottom: $weight * -2;
+        transform: scale(0, 1);
+        transition: transform 0.4s;
+    }
+    &:hover::after,
+    &:focus::after,
+    &:active::after {
+        transform: scale(1, 1);
+    }
+    &:after,
+    &:after {
+        background: $background;
+    }
+}
+@mixin hover-highlight($color: lighten($yellow, 20%), $font-size: 1em, $padding: 0 1em, $line-height: 2em) {
+    position: relative;
+    font-size: $font-size;
+    line-height: $line-height;
+    font-weight: inherit;
+    cursor: pointer;
+    outline: none;
+    padding: $padding;
+    z-index: 1;
+    &:hover::before,
+    &:focus::before,
+    &:active::before,
+    &:focus {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    &::before {
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        content: " ";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        inset: 0 0 0 0;
+        background: $color;
+        z-index: -1;
+        transition: transform 0.3s ease-in-out;
+    }
+}
+@mixin arrow-link($color: $black) {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    font-weight: 500;
+    span {
+        line-height: 1.5em;
+        border-bottom: dotted 3px transparent;
+        color: $color;
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+    i {
+        font-size: 1.1em;
+        font-weight: 900;
+        margin: 0 0 0 1rem;
+        color: $color;
+        transition: margin 0.3s ease-in-out;
+        @media only screen and (max-width: 400px) {
+            display: none;
+        }
+    }
+    &:hover,
+    &:focus,
+    &:active {
+        outline: none;
+        i {
+            transition: margin 0.3s ease-in-out;
+            margin: 0 1rem 0 2rem;
+            outline: none;
+        }
+        span {
+            border-bottom: dotted 3px $color;
+            transition: border 0.35s ease-in-out;
+        }
+    }
+    &:active {
+        opacity: 0.5;
+    }
+
+}
+@mixin BTN($color: $yellow, $width: 6.2rem, $height: 2.2rem, $font-size: 1em, $BGcolor: lighten($color, 30%)) {
+    width: $width;
+    height: $height;
+    transform-style: preserve-3d;
+    transform: translateZ(0);
+    transition: all 0.15s ease-in-out;
+    border: 1.5px solid $color;
+    background-color: $BGcolor;
+    position: relative;
+    button {
+        background-color: $color;
+        border: 1.5px solid $color;
+        position: relative;
+        width: $width;
+        height: $height;
+        bottom: 0;
+        top: 0px;
+        right: 0;
+        left: -2px;
+        transform-style: preserve-3d;
+        transform: translateZ(0);
+        transition: all 0.15s ease-in-out;
+        border-radius: 0;
+        font-size: $font-size;
+        letter-spacing: 0.1em;
+        &::first-letter {
+            text-transform: uppercase;
+        }
+        &:focus {
+            border: 1.5px solid $color;
+            background-color: lighten($color, 30%);
+            outline-offset: 4px;
+            outline: 2px solid $light-grey;
+        }
+    }
+    &:hover,
+    &:focus {
+        transition: all 0.5s;
+        transform: translate3d(-0.25em, 0.2em, 0);
+        button {
+            transition: all 0.5s;
+            transform: translate3d(0.5em, -0.4em, 0);
+            outline: none;
+        }
+    }
+}

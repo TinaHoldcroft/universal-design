@@ -5,6 +5,7 @@ export default function Home() {
 
     return (
         <>
+        <img src='/background.svg'/>
             <div className="generator-container">
                 <Generator/>
             </div>

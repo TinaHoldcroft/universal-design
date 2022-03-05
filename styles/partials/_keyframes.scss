@@ -1,0 +1,83 @@
+@keyframes navOverlayOpen {
+    0% {
+        top: -2.6rem;
+        right: 0.5rem;
+        height: 2.65vmax;
+        width: 2.65vmax;
+        border-radius: 50%;
+    }
+    100% {
+        top: -50vmax;
+        right: -50vmax;
+        height: 200vmax;
+        width: 200vmax;
+        border-radius: 50%;
+    }
+}
+@keyframes navContentOpen {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes checkmark {
+    0% {
+        stroke-dashoffset: 17px;
+    }
+}
+@keyframes checkmark-circle {
+    0% {
+        background-color: $white;
+        border: 10px solid $light-grey;
+        border-top-color: $yellow;
+    }
+    80% {
+        background-color: $white;
+        border: 10px solid $light-grey;
+        border-top-color: $yellow;
+    }
+    100% {
+        transform: rotate(720deg);
+        background-color: $yellow;
+    }
+}
+@keyframes scaleUpOdd {
+    0% {
+        transform: scale(0.8);
+        filter: grayscale(1);
+    }
+    50% {
+        filter: grayscale(0);
+    }
+    70% {
+        transform: scale(1.03);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes scaleUpEven {
+    0% {
+        transform: scale(0.8);
+        filter: grayscale(1);
+    }
+    50% {
+        filter: grayscale(0);
+    }
+    70% {
+        transform: scale(1.03);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes bounce {
+    50% {
+        margin-right: -0.15em;
+    }
+}

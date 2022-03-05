@@ -1,0 +1,17 @@
+.checkBtn {
+    @include flex(column nowrap, center, center, center, center, 0);
+    background-color: $light-grey;
+    min-width: 48%;
+    height: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+    &:focus, &:hover {
+        background-color: $yellow;
+        box-shadow: 2.0px 4.0px 4.0px hsl(0deg 0% 0% / 0.38);
+    }
+    &:active { transform: scale(1.03); }
+}

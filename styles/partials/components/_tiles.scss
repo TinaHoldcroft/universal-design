@@ -1,0 +1,30 @@
+.tile {
+    @include flex(column wrap,  flex-start, stretch, auto, flex-start, 1rem);
+    width: 100%;
+    @media only screen and (min-width: 1000px) { min-height: 13rem; }
+    @media only screen and (max-width: 1000px) { padding: 1rem; }
+    p { padding: 0 0.5rem; }
+    ::first-letter { text-transform: uppercase; }
+    ::selection { background: lighten($yellow, 30%); }
+    h3 {
+        border-bottom: 3px solid lighten($yellow, 20%);
+        margin-bottom: 2px;
+        font-size: 1.5em;
+        font-weight: 400;
+        padding: 0.6rem 0.5rem;
+        min-width: 100%;
+        @include flex(row nowrap, space-between, stretch, auto, center, 0);
+        &::after {
+            content: '→'; 
+            position: relative;
+            margin-right: 1rem;  
+        }
+    }
+    &:hover, &:focus {
+        h3 {
+            border-bottom: 5px dotted $yellow;
+            margin: 0;
+            &::after { animation: bounce 1s 2 forwards ease-in-out; }
+        }
+    }
+}

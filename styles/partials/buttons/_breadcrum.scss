@@ -1,0 +1,85 @@
+.breadcrum {
+    @include flex(row nowrap, space-around, stretch, auto, flex-start, 0);
+    margin: 0 0 2rem 0; 
+    button {
+        @include flex(row nowrap, center, center, center, center, 0);
+        border-radius: 50%;
+        border: $light-grey 2.5px solid;
+        background-color: $white;
+        width: 3rem;
+        height: 3rem;
+        transition: 1s;
+        &:focus, &:hover, &:active {
+            outline: none;
+            box-shadow: 1.0px 1.0px 2.0px hsl(0deg 0% 0% / 0.38);
+            background-color: $yellow;
+            border: $yellow 2.5px solid;
+        }
+        .svg { display: none; }
+    }
+    .line {
+        height: 2px;
+        width: 1rem;
+        margin-top: 1.5rem;
+        background-color: $light-grey;
+        animation: progress 6s ease-in-out forwards;
+        transition: 1s;
+        flex-grow: 4;
+    }
+    i { font-size: 1.2em; }
+}
+.line3 { display: none; }
+.activePage__1 {
+    .button1 {
+        background-color: $yellow;
+        border-color: $yellow;
+    }
+}
+.activePage__2 {
+    .button1 {
+        .icon { display: none; }
+        .svg { display: block; }
+    }
+    .button1 { border-color: $yellow; }
+    .line1 { background-color: $yellow; }
+    .button2 {
+        background-color: $yellow;
+        border-color: $yellow;
+    }
+}
+.activePage__3 {
+    .button1 {
+        .icon { display: none; }
+        .svg { display: block; }
+    }
+    .button2 {
+        .icon { display: none; }
+        .svg { display: block; }
+    }
+    .button1, .button2 { border-color: $yellow; }
+    .line1, .line2 { background-color: $yellow; }
+    .button3 {
+        background-color: $yellow;
+        border-color: $yellow;
+    }
+}
+.activePage__4 {
+    .button1 {
+        .icon { display: none; }
+        .svg { display: block; }
+    }
+    .button2 {
+        .icon {  display: none; }
+        .svg { display: block; }
+    }
+    .button3 {
+        .icon { display: none; }
+        .svg { display: block; }
+    }
+    .button1, .button2, .button3 { border-color: $yellow; }
+    .line1, .line2, .line3 { background-color: $yellow; }
+    .button4 {
+        background-color: $yellow;
+        border-color: $yellow;
+    }
+}

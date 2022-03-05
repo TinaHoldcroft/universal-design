@@ -1,0 +1,16 @@
+.flat-btn {
+    min-width: 48%;
+    height: 3rem;
+    text-transform: uppercase;
+    background-color: $light-grey;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    &:focus, &:hover {
+        background-color: $yellow;
+        box-shadow: 2.0px 4.0px 4.0px hsl(0deg 0% 0% / 0.38);
+        outline: none;
+        transition: 0.3s;
+    }
+    &:active { transform: scale(1.03); }
+}

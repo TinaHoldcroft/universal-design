@@ -24,7 +24,6 @@ class MyDocument extends Document {
                     <meta name="keywords" content="" />
                     <meta property="image" content="https://images.unsplash.com/photo-1433888104365-77d8043c9615?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80" />
                     <meta property="og:image" content="https://images.unsplash.com/photo-1433888104365-77d8043c9615?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80" />
-                    <meta property="og:title" content="" />
                     <meta name="description" content="" />
                     <meta property="og:description" content="" />
                     <meta property="url" content="" />

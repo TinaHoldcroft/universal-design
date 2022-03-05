@@ -1,0 +1,30 @@
+.table-wrapper {
+    overflow-x: auto;
+    @media only screen and (max-width: 1000px) {
+        margin: 0 1rem;
+    }
+}
+.table-giver {
+    width: 100%;
+    thead {
+        background-color: lighten($yellow, 20%);
+    }
+}
+.table-giver__heading {
+    .data {
+        font-size: 1.2em;
+        font-weight: 600;
+        line-height: 2.5em;
+    }
+}
+tbody .table-giver__row:nth-child(even) {
+    background-color: lighten($light-grey, 2.5%);
+}
+.table-giver__row:nth-child(odd) {
+    background-color: $white;
+}
+.table-giver__row {
+    .data {
+        padding: 0.75em 1.25em;
+    }
+}

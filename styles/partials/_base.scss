@@ -6,16 +6,37 @@
 html {
     overflow-y: auto;
     overflow-x: hidden;
+    //touch-action: pan-y;
+    //-ms-touch-action: pan-y;
 }
 html,
 body {
     scroll-behavior: smooth;
 }
-[light] body {
-    background-color: $white;
-    color: $black;
+.float-right {
+    float: right;
 }
-[dark] body {
-    background-color: $black;
-    color: $white;
+.float-left {
+    float: left;
+}
+.arrow-link a {
+    @include arrow-link;
+}
+.--close {
+    display: none;
+}
+.sr-only:not(:focus):not(:active) { // only for screen readers
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+main {
+    @include flex(column nowrap, flex-start, center, auto, center, 0);
+    margin: 3.5rem 0 0 0;
+    min-height: 100vh;
+    width: 100vw;
 }

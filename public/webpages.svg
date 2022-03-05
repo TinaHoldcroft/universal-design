@@ -1,0 +1,313 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="941.792" height="755.844" viewBox="0 0 941.792 755.844">
+	<g id="Group_137" data-name="Group 137" transform="translate(-86.979 -3315.918)">
+	  <g id="Scene_Wireframe" data-name="Scene/Wireframe" transform="translate(88.251 3316.918)">
+		<g id="Background_Shape_2" data-name="Background Shape 2" transform="translate(15.356 427.174)" opacity="0.6">
+		  <path id="Background_Shape" data-name="Background Shape" d="M923.744,204.028C937.215,295.219,610.52,354.7,329.326,313.19S-80.867,109.576,53.314,23.2,910.273,112.836,923.744,204.028Z" transform="translate(0 0)" fill="#fdf7d6" stroke="#000" stroke-width="2"/>
+		</g>
+		<g id="Mobile3" transform="translate(153.559 33.504)">
+		  <rect id="Container" width="222" height="421" rx="8" transform="translate(0.441 0.496)" fill="#f9e57f" stroke="#000" stroke-width="2"/>
+		  <g id="Touch" transform="translate(89.441 353.496)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+			<circle cx="21" cy="21" r="21" stroke="none"/>
+			<circle cx="21" cy="21" r="20" fill="none"/>
+		  </g>
+		  <g id="Camera" transform="translate(89.344 22.336)">
+			<g id="Lens" transform="translate(0.097 0.16)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+			  <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+			  <circle cx="2.5" cy="2.5" r="1.5" fill="none"/>
+			</g>
+			<g id="Sensor" transform="translate(12.097 0.16)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+			  <rect width="30" height="5" rx="2" stroke="none"/>
+			  <rect x="1" y="1" width="28" height="3" rx="1" fill="none"/>
+			</g>
+		  </g>
+		  <g id="Rows" transform="translate(19.544 39.088)">
+			<g id="Row">
+			  <g id="Background" transform="translate(-0.103 0.408)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="183" height="75" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="181" height="73" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text" transform="translate(54.444 22.615)">
+				<rect id="Name" width="101.907" height="11.308" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Name-2" data-name="Name" width="68.404" height="11.308" rx="3" transform="translate(0 18.846)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <circle id="Avatar" cx="16.5" cy="16.5" r="16.5" transform="translate(12.897 21.408)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+			</g>
+			<g id="Row-2" data-name="Row" transform="translate(0 86.552)">
+			  <g id="Background-2" data-name="Background" transform="translate(-0.103 -0.144)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="183" height="59" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="181" height="57" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text-2" data-name="Text" transform="translate(54.444 17.59)">
+				<rect id="Name-3" data-name="Name" width="101.907" height="8.795" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Name-4" data-name="Name" width="68.404" height="8.795" rx="3" transform="translate(0 14.658)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <circle id="Avatar-2" data-name="Avatar" cx="16.5" cy="16.5" r="16.5" transform="translate(12.897 12.856)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+			</g>
+			<g id="Row-3" data-name="Row" transform="translate(0 156.351)">
+			  <g id="Background-3" data-name="Background" transform="translate(-0.103 0.058)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="183" height="59" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="181" height="57" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text-3" data-name="Text" transform="translate(54.444 17.59)">
+				<rect id="Name-5" data-name="Name" width="101.907" height="8.795" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Name-6" data-name="Name" width="68.404" height="8.795" rx="3" transform="translate(0 14.658)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <circle id="Avatar-3" data-name="Avatar" cx="16.5" cy="16.5" r="16.5" transform="translate(12.897 13.058)" fill="#afb9c5" stroke="#000" stroke-width="2"/>
+			</g>
+			<g id="Row-4" data-name="Row" transform="translate(0 226.151)">
+			  <g id="Background-4" data-name="Background" transform="translate(-0.103 0.258)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="183" height="58" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="181" height="56" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text-4" data-name="Text" transform="translate(54.444 17.59)">
+				<rect id="Name-7" data-name="Name" width="101.907" height="8.795" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Name-8" data-name="Name" width="68.404" height="8.795" rx="3" transform="translate(0 14.658)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <ellipse id="Avatar-4" data-name="Avatar" cx="16.5" cy="17" rx="16.5" ry="17" transform="translate(12.897 12.258)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+			</g>
+		  </g>
+		</g>
+		<g id="Mobile3-2" data-name="Mobile3" transform="translate(247.091 69.8)">
+		  <path id="Container-2" data-name="Container" d="M11.168,0H210.795a11.168,11.168,0,0,1,11.168,11.168V410.422a11.168,11.168,0,0,1-11.168,11.168H11.168A11.168,11.168,0,0,1,0,410.422V11.168A11.168,11.168,0,0,1,11.168,0Z" transform="translate(0)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+		  <g id="Touch-2" data-name="Touch" transform="translate(88.909 353.2)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+			<circle cx="21" cy="21" r="21" stroke="none"/>
+			<circle cx="21" cy="21" r="20" fill="none"/>
+		  </g>
+		  <g id="Camera-2" data-name="Camera" transform="translate(89.344 22.336)">
+			<g id="Lens-2" data-name="Lens" transform="translate(-0.434 -0.136)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+			  <circle cx="3" cy="3" r="3" stroke="none"/>
+			  <circle cx="3" cy="3" r="2" fill="none"/>
+			</g>
+			<g id="Sensor-2" data-name="Sensor" transform="translate(12.566 -0.136)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+			  <rect width="29" height="6" rx="2" stroke="none"/>
+			  <rect x="1" y="1" width="27" height="4" rx="1" fill="none"/>
+			</g>
+		  </g>
+		  <g id="Rows-2" data-name="Rows" transform="translate(19.544 39.088)">
+			<g id="Row-5" data-name="Row">
+			  <g id="Container-3" data-name="Container" transform="translate(0.365 0.112)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="183" height="75" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="181" height="73" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text_Stuff" data-name="Text Stuff" transform="translate(12.564 22.615)">
+				<rect id="Label" width="101.907" height="11.308" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Label-2" data-name="Label" width="68.404" height="11.308" rx="3" transform="translate(0 18.846)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <g id="Check" transform="translate(153.559 27.92)">
+				<ellipse id="Background-5" data-name="Background" cx="10" cy="9.5" rx="10" ry="9.5" transform="translate(-0.194 0.192)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<ellipse id="Indicator" cx="4" cy="4.5" rx="4" ry="4.5" transform="translate(5.806 5.192)" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+			  </g>
+			</g>
+			<g id="Row-6" data-name="Row" transform="translate(0 86.552)">
+			  <g id="Background-6" data-name="Background" transform="translate(0.365 -0.439)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="183" height="59" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="181" height="57" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text-5" data-name="Text" transform="translate(54.444 17.59)">
+				<rect id="Name-9" data-name="Name" width="101.907" height="8.795" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Name-10" data-name="Name" width="68.404" height="8.795" rx="3" transform="translate(0 14.658)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <circle id="Avatar-5" data-name="Avatar" cx="17" cy="17" r="17" transform="translate(12.365 12.561)" fill="#f9e57f" stroke="#000" stroke-width="2"/>
+			</g>
+			<g id="Row-7" data-name="Row" transform="translate(0 156.351)">
+			  <g id="Container-4" data-name="Container" transform="translate(0.365 -0.238)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="183" height="59" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="181" height="57" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text_Stuff-2" data-name="Text Stuff" transform="translate(12.564 17.59)">
+				<rect id="Label-3" data-name="Label" width="101.907" height="8.795" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Label-4" data-name="Label" width="68.404" height="8.795" rx="3" transform="translate(0 14.658)" fill="#afb9c5" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <g id="Check-2" data-name="Check" transform="translate(153.559 19.544)">
+				<ellipse id="Background-7" data-name="Background" cx="10" cy="9.5" rx="10" ry="9.5" transform="translate(-0.194 0.218)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<ellipse id="Indicator-2" data-name="Indicator" cx="4" cy="4.5" rx="4" ry="4.5" transform="translate(5.806 5.218)" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+			  </g>
+			</g>
+			<g id="Row-8" data-name="Row" transform="translate(0 226.151)">
+			  <g id="Background-8" data-name="Background" transform="translate(0.365 -0.038)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="183" height="59" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="181" height="57" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text-6" data-name="Text" transform="translate(54.444 17.59)">
+				<rect id="Name-11" data-name="Name" width="101.907" height="8.795" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Name-12" data-name="Name" width="68.404" height="8.795" rx="3" transform="translate(0 14.658)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <ellipse id="Avatar-6" data-name="Avatar" cx="17" cy="16.5" rx="17" ry="16.5" transform="translate(12.365 12.962)" fill="#f9e57f" stroke="#000" stroke-width="2"/>
+			</g>
+		  </g>
+		</g>
+		<g id="Web" transform="translate(337.83 104.699)">
+		  <rect id="Container-5" data-name="Container" width="467" height="483" rx="8" transform="translate(0.17 0.301)" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+		  <g id="Background-9" data-name="Background" transform="translate(347.17 60.301)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+			<rect width="98" height="113" rx="8" stroke="none"/>
+			<rect x="1" y="1" width="96" height="111" rx="7" fill="none"/>
+		  </g>
+		  <g id="Profile_Info" data-name="Profile Info" transform="translate(361.562 80.968)">
+			<ellipse id="Avatar-7" data-name="Avatar" cx="22.5" cy="22" rx="22.5" ry="22" transform="translate(12.608 0.333)" fill="#f9e57f" stroke="#000" stroke-width="2"/>
+			<rect id="Name-13" data-name="Name" width="70" height="8" rx="3.5" transform="translate(-0.392 50.333)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			<rect id="Name-14" data-name="Name" width="47" height="8" rx="3.5" transform="translate(11.608 64.333)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+		  </g>
+		  <path id="Header" d="M8,0H459a8,8,0,0,1,8,8V37a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V8A8,8,0,0,1,8,0Z" transform="translate(0.17 0.301)" fill="#f9e57f" stroke="#000" stroke-width="2"/>
+		  <g id="Buttons" transform="translate(12.564 13.96)">
+			<ellipse id="buttons-2" data-name="buttons" cx="6" cy="5.5" rx="6" ry="5.5" transform="translate(-0.394 0.341)" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+			<circle id="buttons-3" data-name="buttons" cx="5.5" cy="5.5" r="5.5" transform="translate(16.606 0.341)" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+			<circle id="buttons-4" data-name="buttons" cx="5.5" cy="5.5" r="5.5" transform="translate(33.606 0.341)" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+		  </g>
+		  <g id="Components" transform="translate(347.602 184.271)">
+			<g id="Background-10" data-name="Background" transform="translate(-0.432 0.029)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+			  <rect width="98" height="271" rx="8" stroke="none"/>
+			  <rect x="1" y="1" width="96" height="269" rx="7" fill="none"/>
+			</g>
+			<g id="Rows-3" data-name="Rows" transform="translate(25.128 25.128)">
+			  <rect id="Data" width="47" height="36" rx="4" transform="translate(0.44 -0.099)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  <rect id="Data-2" data-name="Data" width="47" height="34" rx="4" transform="translate(0.44 47.901)" fill="#f9e57f" stroke="#000" stroke-width="2"/>
+			  <rect id="Data-3" data-name="Data" width="47" height="35" rx="4" transform="translate(0.44 93.901)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  <rect id="Data-4" data-name="Data" width="47" height="35" rx="4" transform="translate(0.44 185.901)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  <rect id="Data-5" data-name="Data" width="47" height="35" rx="4" transform="translate(0.44 139.901)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+			</g>
+		  </g>
+		  <g id="Rows-4" data-name="Rows" transform="translate(22.336 61.424)">
+			<g id="Row-9" data-name="Row">
+			  <g id="Container-6" data-name="Container" transform="translate(-0.166 -0.123)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="314" height="66" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="312" height="64" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text_Stuff-3" data-name="Text Stuff" transform="translate(12.564 19.683)">
+				<rect id="Label-5" data-name="Label" width="233.131" height="9.842" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Label-6" data-name="Label" width="156.485" height="9.842" rx="3" transform="translate(0 16.403)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <g id="Check-3" data-name="Check" transform="translate(270.759 23.034)">
+				<circle id="Background-11" data-name="Background" cx="9.772" cy="9.772" r="9.772" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<circle id="Indicator-3" data-name="Indicator" cx="4.188" cy="4.188" r="4.188" transform="translate(5.584 5.584)" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+			  </g>
+			</g>
+			<g id="Row-10" data-name="Row" transform="translate(0 76.78)">
+			  <g id="Container-7" data-name="Container" transform="translate(-0.166 0.098)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="314" height="54" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="312" height="52" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text_Stuff-4" data-name="Text Stuff" transform="translate(12.564 16.333)">
+				<rect id="Label-7" data-name="Label" width="233.131" height="8.167" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Label-8" data-name="Label" width="156.485" height="8.167" rx="3" transform="translate(0 13.611)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <g id="Check-4" data-name="Check" transform="translate(270.759 17.45)">
+				<circle id="Background-12" data-name="Background" cx="9.772" cy="9.772" r="9.772" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<circle id="Indicator-4" data-name="Indicator" cx="4.188" cy="4.188" r="4.188" transform="translate(5.584 5.584)" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+			  </g>
+			</g>
+			<g id="Row-11" data-name="Row" transform="translate(0 142.391)">
+			  <g id="Container-8" data-name="Container" transform="translate(-0.166 0.485)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="314" height="54" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="312" height="52" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text_Stuff-5" data-name="Text Stuff" transform="translate(12.564 16.333)">
+				<rect id="Label-9" data-name="Label" width="233.131" height="8.167" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Label-10" data-name="Label" width="156.485" height="8.167" rx="3" transform="translate(0 13.611)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <g id="Check-5" data-name="Check" transform="translate(270.759 17.45)">
+				<circle id="Background-13" data-name="Background" cx="9.772" cy="9.772" r="9.772" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<circle id="Indicator-5" data-name="Indicator" cx="4.188" cy="4.188" r="4.188" transform="translate(5.584 5.584)" fill="#afb9c5" stroke="#000" stroke-width="2"/>
+			  </g>
+			</g>
+			<g id="Row-12" data-name="Row" transform="translate(0 339.226)">
+			  <g id="Container-9" data-name="Container" transform="translate(-0.166 -0.35)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="314" height="55" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="312" height="53" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text_Stuff-6" data-name="Text Stuff" transform="translate(12.564 16.333)">
+				<rect id="Label-11" data-name="Label" width="233.131" height="8.167" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Label-12" data-name="Label" width="156.485" height="8.167" rx="3" transform="translate(0 13.611)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <g id="Check-6" data-name="Check" transform="translate(270.759 17.45)">
+				<circle id="Background-14" data-name="Background" cx="9.772" cy="9.772" r="9.772" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<circle id="Indicator-6" data-name="Indicator" cx="4.188" cy="4.188" r="4.188" transform="translate(5.584 5.584)" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+			  </g>
+			</g>
+			<g id="Row-13" data-name="Row" transform="translate(0 273.615)">
+			  <g id="Container-10" data-name="Container" transform="translate(-0.166 0.263)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="314" height="54" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="312" height="52" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text_Stuff-7" data-name="Text Stuff" transform="translate(12.564 16.333)">
+				<rect id="Label-13" data-name="Label" width="233.131" height="8.167" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Label-14" data-name="Label" width="156.485" height="8.167" rx="3" transform="translate(0 13.611)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <g id="Check-7" data-name="Check" transform="translate(270.759 17.45)">
+				<circle id="Background-15" data-name="Background" cx="9.772" cy="9.772" r="9.772" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<circle id="Indicator-7" data-name="Indicator" cx="4.188" cy="4.188" r="4.188" transform="translate(5.584 5.584)" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+			  </g>
+			</g>
+			<g id="Row-14" data-name="Row" transform="translate(0 208.003)">
+			  <g id="Container-11" data-name="Container" transform="translate(-0.166 -0.126)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2">
+				<rect width="314" height="55" rx="4" stroke="none"/>
+				<rect x="1" y="1" width="312" height="53" rx="3" fill="none"/>
+			  </g>
+			  <g id="Text_Stuff-8" data-name="Text Stuff" transform="translate(12.564 16.333)">
+				<rect id="Label-15" data-name="Label" width="233.131" height="8.167" rx="3" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<rect id="Label-16" data-name="Label" width="156.485" height="8.167" rx="3" transform="translate(0 13.611)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+			  </g>
+			  <g id="Check-8" data-name="Check" transform="translate(270.759 17.45)">
+				<circle id="Background-16" data-name="Background" cx="9.772" cy="9.772" r="9.772" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+				<circle id="Indicator-8" data-name="Indicator" cx="4.188" cy="4.188" r="4.188" transform="translate(5.584 5.584)" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+			  </g>
+			</g>
+		  </g>
+		</g>
+		<g id="Graph" transform="translate(686.828)">
+		  <rect id="Value" width="8" height="35" rx="3.5" transform="translate(0.172 45)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+		  <rect id="Value-2" data-name="Value" width="9" height="58" rx="3.5" transform="translate(19.172 22)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+		  <rect id="Value-3" data-name="Value" width="8" height="69" rx="3.5" transform="translate(39.172 11)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+		  <rect id="Value-4" data-name="Value" width="9" height="58" rx="3.5" transform="translate(58.172 22)" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+		  <rect id="Value-5" data-name="Value" width="8" height="80" rx="3.5" transform="translate(78.172)" fill="#f9e57f" stroke="#000" stroke-width="2"/>
+		</g>
+		<g id="Pie_Chart" data-name="Pie Chart" transform="translate(55.84 455.094) rotate(180)">
+		  <path id="Value-6" data-name="Value" d="M0,28.278A28.187,28.187,0,0,1,27.92,0V28.278L8.839,48.86A28.021,28.021,0,0,1,0,28.278Z" transform="translate(55.84 55.84) rotate(180)" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+		  <path id="Value-7" data-name="Value" d="M19.269,0h28.2A27.939,27.939,0,0,1,39.79,19.08,28.418,28.418,0,0,1,19.269,27.92,28.819,28.819,0,0,1,0,20.321Z" transform="translate(47.927 27.92) rotate(180)" fill="#f9e57f" stroke="#000" stroke-width="2"/>
+		  <path id="Value-8" data-name="Value" d="M28,28H56a27.644,27.644,0,0,0-2.21-10.871A28.28,28.28,0,0,0,38.871,2.21,27.645,27.645,0,0,0,28,0V28Zm-2.8-2.8v0L14,0A25.7,25.7,0,0,0,0,14L25.2,25.2Z" transform="translate(55.84 56.094) rotate(180)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		</g>
+		<g id="Chart" transform="translate(855.744 388.086)">
+		  <path id="Value-9" data-name="Value" d="M52.722,51.9a14.676,14.676,0,1,1-10.709-24.68V0a41.88,41.88,0,1,0,0,83.76A41.446,41.446,0,0,0,72.592,70.5Z" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+		  <path id="Value-10" data-name="Value" d="M0,0V27.222A14.658,14.658,0,0,1,14.658,41.88H41.88A42.008,42.008,0,0,0,0,0Z" transform="translate(41.88)" fill="#f9e57f" stroke="#000" stroke-width="2"/>
+		  <path id="Value-11" data-name="Value" d="M5.719,0A14.853,14.853,0,0,1,0,11.713L17.117,33.5A42.456,42.456,0,0,0,33.5,0Z" transform="translate(50.256 41.88)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		</g>
+		<g id="Chart-2" data-name="Chart" transform="translate(601.673 15.356)">
+		  <path id="Value-12" data-name="Value" d="M40.555,39.791A11.271,11.271,0,1,1,32.317,20.87V0A32.312,32.312,0,0,0,0,32.108,32.312,32.312,0,0,0,32.317,64.216,31.931,31.931,0,0,0,55.84,54.05Z" fill="#f2f2f2" stroke="#000" stroke-width="2"/>
+		  <path id="Value-13" data-name="Value" d="M0,0V20.87A11.238,11.238,0,0,1,11.238,32.108h20.87A32.206,32.206,0,0,0,0,0Z" transform="translate(32.108)" fill="#f9e57f" stroke="#000" stroke-width="2"/>
+		  <path id="Value-14" data-name="Value" d="M4.289,0A11.14,11.14,0,0,1,0,8.785L12.838,25.128A31.842,31.842,0,0,0,25.128,0Z" transform="translate(39.088 32.108)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		</g>
+		<g id="Image" transform="translate(67.008 6.98)">
+		  <path id="Fill_35" data-name="Fill 35" d="M1.013.988C1.007,1,1,1.016.993,1.033c.008-.014.02-.07.02-.045" transform="translate(66.005 71.584)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_37" data-name="Fill 37" d="M1,1.007a.121.121,0,0,0,0,.014c0-.014.025-.056,0-.014" transform="translate(66.006 71.587)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_39" data-name="Fill 39" d="M1.12.832C1.1.888,1.076.941,1.053,1c.011-.028.022-.05.034-.078-.29.726-.106.254.034-.087" transform="translate(65.981 71.525)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_41" data-name="Fill 41" d="M1.04.953l-.034.078c-.081.156.034-.078.034-.078" transform="translate(65.999 71.573)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_43" data-name="Fill 43" d="M1,1H1V1Z" transform="translate(66.008 71.591)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_45" data-name="Fill 45" d="M1,1S1,1,1,1,1,1,1,1" transform="translate(66.007 71.591)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_47" data-name="Fill 47" d="M.99,1.031c-.017.034.078-.128,0,0" transform="translate(66.003 71.584)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_49" data-name="Fill 49" d="M1,1,1,1S1,1,1,1" transform="translate(66.007 71.591)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Photo_Background" data-name="Photo Background" d="M5.584,0H127.035a5.584,5.584,0,0,1,5.584,5.584v76.78a5.584,5.584,0,0,1-5.584,5.584H5.584A5.584,5.584,0,0,1,0,82.364V5.584A5.584,5.584,0,0,1,5.584,0Z" fill="#dde3e9" stroke="#000" stroke-width="2"/>
+		  <g id="icons8-night_landscape" transform="translate(11.168 25.128)">
+			<path id="Mountains" d="M39.088,0,0,62.82H78.176Z" fill="#afb9c5" stroke="#000" stroke-width="2"/>
+			<path id="Mountains-2" data-name="Mountains" d="M34.2,0,0,46.068H68.4Z" transform="translate(43.276 16.752)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  </g>
+		  <circle id="Sun" cx="12.5" cy="12.5" r="12.5" transform="translate(90.992 17.02)" fill="#fff" stroke="#000" stroke-width="2"/>
+		</g>
+		<g id="Image-2" data-name="Image" transform="translate(899.019 699.392) rotate(180)">
+		  <path id="Fill_35-2" data-name="Fill 35" d="M0,.006C.006.02.011.034.02.051.011.037,0-.019,0,.006" transform="translate(99.125 23.757) rotate(180)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_37-2" data-name="Fill 37" d="M.009.018a.121.121,0,0,1,0,.014c0-.014-.025-.056,0-.014" transform="translate(99.121 23.748) rotate(180)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_39-2" data-name="Fill 39" d="M0,0C.02.056.045.109.067.165.056.137.045.114.034.087.324.812.14.341,0,0" transform="translate(99.209 23.966) rotate(180)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_41-2" data-name="Fill 41" d="M0,0,.034.078C.114.235,0,0,0,0" transform="translate(99.147 23.798) rotate(180)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_43-2" data-name="Fill 43" d="M0,0H0V0Z" transform="translate(99.115 23.733) rotate(180)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_45-2" data-name="Fill 45" d="M0,.006S0,0,0,0,0,0,0,.006" transform="translate(99.117 23.735) rotate(180)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_47-2" data-name="Fill 47" d="M.031.05c.017.034-.078-.128,0,0" transform="translate(99.132 23.759) rotate(180)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <path id="Fill_49-2" data-name="Fill 49" d="M.006.006,0,0S0,.006.006.006" transform="translate(99.118 23.735) rotate(180)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  <rect id="Photo_Background-2" data-name="Photo Background" width="198" height="131" rx="4" transform="translate(198.019 131.392) rotate(180)" fill="#f9e57f" stroke="#000" stroke-width="2"/>
+		  <g id="icons8-night_landscape-2" data-name="icons8-night_landscape" transform="translate(16.292)">
+			<path id="Mountains-3" data-name="Mountains" d="M57.312,0l57.312,93.532H0Z" transform="translate(114.625 93.531) rotate(180)" fill="#afb9c5" stroke="#000" stroke-width="2"/>
+			<path id="Mountains-4" data-name="Mountains" d="M50.668,0l50.668,68.478H0Z" transform="translate(167.072 68.478) rotate(180)" fill="#c5cfd6" stroke="#000" stroke-width="2"/>
+		  </g>
+		  <circle id="Sun-2" data-name="Sun" cx="19" cy="19" r="19" transform="translate(173.019 106.392) rotate(180)" fill="#fff" stroke="#000" stroke-width="2"/>
+		</g>
+	  </g>
+	</g>
+  </svg>
+  

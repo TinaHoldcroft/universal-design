@@ -1,0 +1,48 @@
+.payment {
+    @include flex(row nowrap, center, center, center, center, 0.75rem);
+    width: 100%;
+    padding-top: 1rem;
+    margin: 0;
+    .btn {
+        @include flex(column nowrap, center, flex-start, center, center, 0.5em);
+        min-width: 100%;
+        min-height: 4.5rem;
+        padding: 1vmax 0 1vmax 3vmin;
+        border-radius: 6px;
+        border: none;
+        color: $white;
+    }
+    div  { 
+        min-width: 49%;
+        flex: 1 1 auto; 
+    }
+    .vipps {
+        background-color: $vipps;
+        img { width: 60%; }
+    }
+    .avtale-giro {
+        background-color: #030504;
+        img { width: 80%; }
+    }
+    .kort {
+        background-color: $light-grey;
+        color: $black;
+        img { width: 42%; }
+    }
+}
+.vipps-approve {
+    background-color: $vipps;
+    color: $white;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 0.8rem;
+    margin: 1rem 0 0 34%;
+    border-radius: 50px;
+    border: solid 3px $vipps;
+    float: center;
+    width: 30%;
+    &:focus, &:hover {
+        background-color: $white;
+        color: $vipps;
+    }
+}
