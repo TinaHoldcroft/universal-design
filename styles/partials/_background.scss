@@ -1,0 +1,69 @@
+.particle-container {
+	position: absolute;
+	right: 2rem;
+	top: 3.5rem;
+	width: 50vw;
+	z-index: -9999;
+}
+.particle {
+	position: absolute;
+	z-index: -9999;
+}
+[dark] .standard .particle {
+	filter: invert(86%);
+}
+@for $i from 1 through 30 {
+	@keyframes particle-animation-#{$i} {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+		}
+	}
+	.particle:nth-child(#{$i}) {
+		animation: particle-animation-#{$i} 60s infinite;
+		$size: random(40) + 5 + px;
+		//$size: random(5) + 5 + px;
+		//opacity: random(80) / 100;
+		//opacity: random(100)/100;
+		height: $size;
+		width: $size;
+		animation-delay: -$i * 0.2s;
+		transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+		//background: hsl(random(360), 70%, 50%);
+	}
+	.particle:nth-child(1n),
+	.particle:nth-child(4n) {
+		background: $yellow;
+		border-radius: 50%;
+	}
+	.particle:nth-child(2n),
+	.particle:nth-child(5n) {
+		background: $light-grey;
+		border-radius: 0%;
+	}
+	.particle:nth-child(3n) {
+		display: flex;
+		flex-flow: row;
+		border-radius: 0;
+		background-color: transparent;
+		font-size: 1em;
+		&::before {
+			content: "|";
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			transform: rotate(-45deg);
+			position: relative;
+			left: 0.4rem;
+		}
+		&::after {
+			content: "|";
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			position: relative;
+			transform: rotate(45deg);
+		}
+	}
+}

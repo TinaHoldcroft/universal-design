@@ -1,10 +1,12 @@
 import Head from 'next/head'
 import useSWR from 'swr'
+import Background from '../components/background'
 import BTN from '../components/btn'
 import Campaign from '../components/campaign'
 import Card from '../components/card'
 import Person from '../components/Person'
 import Tile from '../components/tile'
+import Form from './form/form'
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
@@ -21,17 +23,29 @@ export default function Home() {
             </Head>
 
             <>
+            <Background/>
                 <div className='hero-index'>
                     <div className='txt'>
                         <h1>Accessible Design for Websites</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
                         <div className='btn-group'>
-                            <BTN link='/' className='positive' value='Lorem ipsium'/>
-                            <BTN link='/' className='negative' value='Lorem ipsium'/>
+                            <div className='positive btn'>
+                                <a href='#demo-modal-1'>
+                                    <button type='button' value='open' >
+                                        Form
+                                    </button>
+                                </a>
+                            </div>
+
+                            <div id="demo-modal-1" className="modal">
+                                <Form />
+                            </div>
+
+                            <BTN link='/generator' className='negative' value='generator' />
                         </div>
                         <p className='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
                     </div>
-                    
+
                     <img src='/woman-hearing-aide.svg' alt='' />
 
                 </div>

@@ -239,38 +239,1613 @@ p {
   width: 1px;
 }
 
-.mode-wrapper {
-  display: flex;
-  flex-flow: row nowrap;
-  margin-right: 1.5rem;
-  width: 44px;
+.particle-container {
+  position: absolute;
+  right: 2rem;
+  top: 3.5rem;
+  width: 50vw;
+  z-index: -9999;
 }
-.mode-wrapper .light {
+
+.particle {
+  position: absolute;
+  z-index: -9999;
+}
+
+[dark] .standard .particle {
+  filter: invert(86%);
+}
+
+@keyframes particle-animation-1 {
+  100% {
+    transform: translate3d(32vw, 61vh, 6px);
+  }
+}
+.particle:nth-child(1) {
+  animation: particle-animation-1 60s infinite;
+  height: 37px;
+  width: 37px;
+  animation-delay: -0.2s;
+  transform: translate3d(80vw, 81vh, 55px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
   background: #ffd500;
   border-radius: 50%;
-  height: 22px;
-  width: 22px;
 }
-.mode-wrapper .dark {
-  background: #ffffff;
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-2 {
+  100% {
+    transform: translate3d(31vw, 77vh, 34px);
+  }
+}
+.particle:nth-child(2) {
+  animation: particle-animation-2 60s infinite;
+  height: 14px;
+  width: 14px;
+  animation-delay: -0.4s;
+  transform: translate3d(87vw, 14vh, 69px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
   border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-3 {
+  100% {
+    transform: translate3d(71vw, 34vh, 12px);
+  }
+}
+.particle:nth-child(3) {
+  animation: particle-animation-3 60s infinite;
+  height: 18px;
+  width: 18px;
+  animation-delay: -0.6s;
+  transform: translate3d(21vw, 18vh, 18px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-4 {
+  100% {
+    transform: translate3d(7vw, 66vh, 73px);
+  }
+}
+.particle:nth-child(4) {
+  animation: particle-animation-4 60s infinite;
+  height: 30px;
+  width: 30px;
+  animation-delay: -0.8s;
+  transform: translate3d(50vw, 9vh, 92px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-5 {
+  100% {
+    transform: translate3d(46vw, 4vh, 4px);
+  }
+}
+.particle:nth-child(5) {
+  animation: particle-animation-5 60s infinite;
+  height: 44px;
+  width: 44px;
+  animation-delay: -1s;
+  transform: translate3d(2vw, 61vh, 18px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-6 {
+  100% {
+    transform: translate3d(81vw, 89vh, 39px);
+  }
+}
+.particle:nth-child(6) {
+  animation: particle-animation-6 60s infinite;
+  height: 25px;
+  width: 25px;
+  animation-delay: -1.2s;
+  transform: translate3d(83vw, 53vh, 73px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-7 {
+  100% {
+    transform: translate3d(66vw, 17vh, 35px);
+  }
+}
+.particle:nth-child(7) {
+  animation: particle-animation-7 60s infinite;
+  height: 29px;
+  width: 29px;
+  animation-delay: -1.4s;
+  transform: translate3d(84vw, 90vh, 41px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-8 {
+  100% {
+    transform: translate3d(63vw, 17vh, 77px);
+  }
+}
+.particle:nth-child(8) {
+  animation: particle-animation-8 60s infinite;
+  height: 17px;
+  width: 17px;
+  animation-delay: -1.6s;
+  transform: translate3d(31vw, 65vh, 11px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-9 {
+  100% {
+    transform: translate3d(5vw, 47vh, 68px);
+  }
+}
+.particle:nth-child(9) {
+  animation: particle-animation-9 60s infinite;
+  height: 42px;
+  width: 42px;
+  animation-delay: -1.8s;
+  transform: translate3d(46vw, 42vh, 21px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-10 {
+  100% {
+    transform: translate3d(82vw, 70vh, 78px);
+  }
+}
+.particle:nth-child(10) {
+  animation: particle-animation-10 60s infinite;
+  height: 33px;
+  width: 33px;
+  animation-delay: -2s;
+  transform: translate3d(70vw, 13vh, 3px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-11 {
+  100% {
+    transform: translate3d(70vw, 35vh, 11px);
+  }
+}
+.particle:nth-child(11) {
+  animation: particle-animation-11 60s infinite;
+  height: 13px;
+  width: 13px;
+  animation-delay: -2.2s;
+  transform: translate3d(10vw, 26vh, 51px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-12 {
+  100% {
+    transform: translate3d(51vw, 55vh, 56px);
+  }
+}
+.particle:nth-child(12) {
+  animation: particle-animation-12 60s infinite;
+  height: 27px;
+  width: 27px;
+  animation-delay: -2.4s;
+  transform: translate3d(46vw, 13vh, 44px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-13 {
+  100% {
+    transform: translate3d(68vw, 86vh, 68px);
+  }
+}
+.particle:nth-child(13) {
+  animation: particle-animation-13 60s infinite;
+  height: 41px;
+  width: 41px;
+  animation-delay: -2.6s;
+  transform: translate3d(10vw, 81vh, 47px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-14 {
+  100% {
+    transform: translate3d(75vw, 35vh, 12px);
+  }
+}
+.particle:nth-child(14) {
+  animation: particle-animation-14 60s infinite;
+  height: 20px;
+  width: 20px;
+  animation-delay: -2.8s;
+  transform: translate3d(5vw, 52vh, 48px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-15 {
+  100% {
+    transform: translate3d(77vw, 28vh, 87px);
+  }
+}
+.particle:nth-child(15) {
+  animation: particle-animation-15 60s infinite;
+  height: 23px;
+  width: 23px;
+  animation-delay: -3s;
+  transform: translate3d(43vw, 63vh, 7px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-16 {
+  100% {
+    transform: translate3d(47vw, 43vh, 1px);
+  }
+}
+.particle:nth-child(16) {
+  animation: particle-animation-16 60s infinite;
+  height: 9px;
+  width: 9px;
+  animation-delay: -3.2s;
+  transform: translate3d(90vw, 73vh, 22px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-17 {
+  100% {
+    transform: translate3d(28vw, 9vh, 53px);
+  }
+}
+.particle:nth-child(17) {
+  animation: particle-animation-17 60s infinite;
+  height: 40px;
+  width: 40px;
+  animation-delay: -3.4s;
+  transform: translate3d(32vw, 67vh, 85px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-18 {
+  100% {
+    transform: translate3d(75vw, 63vh, 46px);
+  }
+}
+.particle:nth-child(18) {
+  animation: particle-animation-18 60s infinite;
+  height: 10px;
+  width: 10px;
+  animation-delay: -3.6s;
+  transform: translate3d(51vw, 73vh, 20px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-19 {
+  100% {
+    transform: translate3d(51vw, 61vh, 52px);
+  }
+}
+.particle:nth-child(19) {
+  animation: particle-animation-19 60s infinite;
+  height: 28px;
+  width: 28px;
+  animation-delay: -3.8s;
+  transform: translate3d(28vw, 42vh, 35px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-20 {
+  100% {
+    transform: translate3d(5vw, 55vh, 44px);
+  }
+}
+.particle:nth-child(20) {
+  animation: particle-animation-20 60s infinite;
+  height: 35px;
+  width: 35px;
+  animation-delay: -4s;
+  transform: translate3d(47vw, 36vh, 81px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-21 {
+  100% {
+    transform: translate3d(28vw, 25vh, 79px);
+  }
+}
+.particle:nth-child(21) {
+  animation: particle-animation-21 60s infinite;
+  height: 8px;
+  width: 8px;
+  animation-delay: -4.2s;
+  transform: translate3d(64vw, 53vh, 77px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-22 {
+  100% {
+    transform: translate3d(13vw, 64vh, 12px);
+  }
+}
+.particle:nth-child(22) {
+  animation: particle-animation-22 60s infinite;
   height: 22px;
   width: 22px;
-  transform: scale(0.9);
-  margin-right: calc(-22px * 0.48);
-  margin-left: calc(22px * 0.48);
-  transition: margin 1.2s ease-out;
+  animation-delay: -4.4s;
+  transform: translate3d(34vw, 68vh, 80px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-23 {
+  100% {
+    transform: translate3d(16vw, 38vh, 34px);
+  }
+}
+.particle:nth-child(23) {
+  animation: particle-animation-23 60s infinite;
+  height: 26px;
+  width: 26px;
+  animation-delay: -4.6s;
+  transform: translate3d(27vw, 74vh, 72px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-24 {
+  100% {
+    transform: translate3d(3vw, 68vh, 57px);
+  }
+}
+.particle:nth-child(24) {
+  animation: particle-animation-24 60s infinite;
+  height: 31px;
+  width: 31px;
+  animation-delay: -4.8s;
+  transform: translate3d(7vw, 15vh, 5px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-25 {
+  100% {
+    transform: translate3d(69vw, 21vh, 45px);
+  }
+}
+.particle:nth-child(25) {
+  animation: particle-animation-25 60s infinite;
+  height: 24px;
+  width: 24px;
+  animation-delay: -5s;
+  transform: translate3d(14vw, 80vh, 2px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-26 {
+  100% {
+    transform: translate3d(47vw, 27vh, 52px);
+  }
+}
+.particle:nth-child(26) {
+  animation: particle-animation-26 60s infinite;
+  height: 13px;
+  width: 13px;
+  animation-delay: -5.2s;
+  transform: translate3d(8vw, 26vh, 82px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-27 {
+  100% {
+    transform: translate3d(36vw, 20vh, 78px);
+  }
+}
+.particle:nth-child(27) {
+  animation: particle-animation-27 60s infinite;
+  height: 27px;
+  width: 27px;
+  animation-delay: -5.4s;
+  transform: translate3d(69vw, 73vh, 59px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-28 {
+  100% {
+    transform: translate3d(67vw, 11vh, 71px);
+  }
+}
+.particle:nth-child(28) {
+  animation: particle-animation-28 60s infinite;
+  height: 40px;
+  width: 40px;
+  animation-delay: -5.6s;
+  transform: translate3d(50vw, 22vh, 56px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-29 {
+  100% {
+    transform: translate3d(7vw, 84vh, 83px);
+  }
+}
+.particle:nth-child(29) {
+  animation: particle-animation-29 60s infinite;
+  height: 18px;
+  width: 18px;
+  animation-delay: -5.8s;
+  transform: translate3d(90vw, 42vh, 96px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes particle-animation-30 {
+  100% {
+    transform: translate3d(70vw, 2vh, 28px);
+  }
+}
+.particle:nth-child(30) {
+  animation: particle-animation-30 60s infinite;
+  height: 24px;
+  width: 24px;
+  animation-delay: -6s;
+  transform: translate3d(81vw, 29vh, 82px);
+}
+
+.particle:nth-child(1n),
+.particle:nth-child(4n) {
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+.particle:nth-child(2n),
+.particle:nth-child(5n) {
+  background: #ebebeb;
+  border-radius: 0%;
+}
+
+.particle:nth-child(3n) {
+  display: flex;
+  flex-flow: row;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+.particle:nth-child(3n)::before {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  left: 0.4rem;
+}
+.particle:nth-child(3n)::after {
+  content: "|";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.mode-wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  gap: 0;
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+.mode-wrapper .dark,
+.mode-wrapper .light {
+  padding: 0.25em 2em;
+  border: solid 2px #ffd500;
+  font-size: 0.6em;
+  text-transform: uppercase;
 }
 
 [dark] .mode-wrapper .dark {
-  transition: margin 1.2s ease-out;
-  margin-right: calc(22px * 0.48);
-  margin-left: calc(-22px * 0.48);
-  background: #242424;
+  background-color: #ffd500;
 }
 
-[dark] .mode-wrapper .light {
-  transition: box-shadow 1.3s ease-out;
+[light] .mode-wrapper .light {
+  background-color: #ffd500;
 }
 
 .checkBtn {
@@ -1212,12 +2787,11 @@ fieldset {
 .modal {
   visibility: hidden;
   opacity: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   height: 100vh;
   width: 100vw;
-  background: rgba(255, 255, 255, 0.9);
   transition: all 0.4s;
   z-index: 99;
 }
@@ -1586,12 +3160,11 @@ tbody .table-giver__row:nth-child(even) {
 
 .logo {
   height: 30px;
-  margin: 10px;
+  margin: 1rem 1.5rem;
 }
 
 .--hide {
   top: -3.5rem;
-  box-shadow: 3px 3px 7px rgba(136, 165, 191, 0.301);
 }
 
 nav {
@@ -1736,49 +3309,6 @@ nav .--open {
 
 ol {
   list-style: none;
-}
-
-.nav-highlights {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 600px;
-  margin: 0 0 0 2rem;
-}
-@media only screen and (max-width: 1000px) {
-  .nav-highlights {
-    display: none;
-  }
-}
-.nav-highlights a {
-  position: relative;
-  font-size: 1em;
-  line-height: 2em;
-  font-weight: inherit;
-  cursor: pointer;
-  outline: none;
-  padding: 0 1em;
-  z-index: 1;
-  z-index: 0;
-}
-.nav-highlights a:hover::before, .nav-highlights a:focus::before, .nav-highlights a:active::before, .nav-highlights a:focus {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-.nav-highlights a::before {
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  inset: 0 0 0 0;
-  background: #ffe666;
-  z-index: -1;
-  transition: transform 0.3s ease-in-out;
 }
 
 .search {
@@ -2087,7 +3617,8 @@ ol {
 .hero-index img {
   flex: 1;
   width: auto;
-  height: 80%;
+  height: 70%;
+  z-index: -99999;
 }
 
 .images {

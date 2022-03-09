@@ -36,8 +36,12 @@ const Mode = () => {
                 title={active ? 'switch to light mode' : 'switch to dark mode'}
                 onClick={switchMode}
             >
-                <div className="dark" />
-                <div className="light" />
+                <div className="dark" >
+                    dark
+                </div>
+                <div className="light" >
+                    light
+                </div>
             </div>
         </>
     )

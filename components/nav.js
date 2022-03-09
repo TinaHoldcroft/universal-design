@@ -41,27 +41,7 @@ const Nav = () => {
                 <img className='logo' src='/logo.svg' alt='directlink back to homepage' />
             </Link>
 
-            <div onClick={closeDrop} className='nav-highlights'>
-                <Link href='/generator'>generator</Link>
-                <Link href='/ChatBot'>ChatBot</Link>
-                <Link href='/form'>form</Link>
-            </div>
-
             <Mode />
-
-            <Language />
-
-            <div className='btn'>
-                <a href='#demo-modal-1'>
-                    <button type='button' value='open' >
-                        open
-                    </button>
-                </a>
-            </div>
-
-            <div id="demo-modal-1" className="modal">
-                <Form />
-            </div>
 
             <FocusLock className='focus' disabled={isActive ? true : false}>
                 <div className='nav-btn-wrapper'>
@@ -75,6 +55,7 @@ const Nav = () => {
                 <div className={isActive ? '--close' : 'nav--overlay'}>
                     <ol className={isActive ? '--close' : '--open'} role='menu'>
                         <NavBtn click={handleToggle} page='ChatBot' />
+                        <NavBtn click={handleToggle} page='generator' />
                     </ol>
                 </div>
             </FocusLock>
