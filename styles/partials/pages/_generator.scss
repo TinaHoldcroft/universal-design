@@ -8,6 +8,53 @@
 }
 
 .braille-generator {
-    @include flex(column nowrap, space-around, center, center, center, 0rem);
-
+    @include flex(column nowrap, space-around, center, center, center, 1.2rem);
+    margin: 15vh;
+    label {
+        font-size: clamp(1.5em, 3.8vw, 3.8rem);
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: "Atkinson Hyperlegible", sans-serif;
+    }
+    input {
+        border: 5px solid $light-grey;
+        width: clamp(90%, 90vw, 30rem);
+        //background-color: $light-grey;
+        padding: 0.75rem 1rem;
+        &:focus {
+            border: 5px solid $yellow;
+            outline: none;
+            background-color: #ffffff;
+        }
+    }
+    textarea {
+        border: 5px solid $light-grey;
+        width: clamp(90%, 90vw, 30rem);
+        background-color: #ffffff;
+        height: 30vh;
+        font-size: clamp(1.5em, 2.5vw, 2rem);
+        resize: none;
+        padding: 0.75rem 1rem;
+        &:focus {
+            outline: none;
+        }
+    }
+    button {
+        font-size: clamp(1em, 1.5vw, 1rem);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-weight: 700;
+        background: transparent;
+        border: none;
+        width: clamp(90%, 90vw, 30rem);
+        height: 3rem;
+        background: $yellow radial-gradient(circle, transparent 1%, $yellow 1%) center/15000%;
+        background-position: center;
+        transition: background 0.8s;
+        &:active {
+            background-color: lighten($yellow, 20%);
+            background-size: 100%;
+            transition: background 0s;
+        }
+    }
 }

@@ -1,5 +1,8 @@
 @import url("https://use.typekit.net/xzn5byu.css");
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 //font-family: open-sans, sans-serif;
+//font-family: 'Atkinson Hyperlegible', sans-serif;
+
 ::-webkit-scrollbar-thumb {
     background: #a3a3a3;
 }
@@ -44,6 +47,7 @@ h2 {
     font-weight: 500;
     font-size: clamp(1.5em, 2.5vw, 2rem);
     line-height: 1em;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 p {
     font-size: 0.95em;

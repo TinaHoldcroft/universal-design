@@ -1,8 +1,6 @@
 .mode-wrapper {
     @include flex(row nowrap, center, center, center, center, 0);
-    position: fixed;
-    bottom: 1rem;
-    left: 1rem;
+    cursor: pointer;
     .dark,
     .light {
         padding: 0.25em 2em;
@@ -13,7 +11,10 @@
 }
 [dark] .mode-wrapper .dark {
     background-color: $yellow;
+    transition: 0.3s;
 }
 [light] .mode-wrapper .light {
     background-color: $yellow;
+    //background:linear-gradient(90deg,#fff 50%,#ffd500 50%);
+    transition: 0.3s;
 }
