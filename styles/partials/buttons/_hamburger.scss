@@ -8,7 +8,7 @@ $menu-color: $medium-grey;
     padding: 2rem;
     &:focus {
         outline: none;
-        transform: scale(0.22);    
+        transform: scale(0.22);
         outline: 10px solid $yellow;
     }
     .bars {
@@ -21,17 +21,14 @@ $menu-color: $medium-grey;
             width: 100%;
             height: 10px;
             background-color: $menu-color;
-            margin-top: 20px;
-            &:nth-child(1){
+            margin-top: 24px;
+            &:nth-child(1) {
                 margin-top: 0;
                 transform: scaleX(1);
                 transition: transform 0.2s $speed;
                 transition-delay: 0.4s;
             }
             &:nth-child(3) {
-                width: 65%;
-                position: relative;
-                right: -34%;
                 transition: width 0.2s $speed;
                 transition-delay: 0.4s;
             }

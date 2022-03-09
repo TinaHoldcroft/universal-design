@@ -264,5 +264,8 @@ fieldset {
     position: absolute;
     font-size: 3em;
     top: 0;
-    right: 2vmax;
+    right: 1.1rem;
+    &:hover {
+        opacity: 0.5;
+    }
 }

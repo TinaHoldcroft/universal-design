@@ -129,13 +129,13 @@ class MasterForm extends React.Component {
 
                 <div className='masterform-wrapper'>
                     <div className='txt-panel'>
+                        <a href="#" className="close">&times;</a>
                         <Txt1 currentStep={this.state.currentStep} />
                         <Txt2 currentStep={this.state.currentStep} />
                         <Txt3 currentStep={this.state.currentStep} paymentType={this.state.paymentType} />
                         <Txt4 currentStep={this.state.currentStep} name={this.state.name} address={this.state.address} zip={this.state.zip} city={this.state.city} telephone={this.state.telephone} email={this.state.email} frequency={this.state.frequency} amount={this.state.amount} deduction={this.state.deduction} />
                     </div>
                     <form id='masterform' className={'masterform active' + this.state.currentStep} onSubmit={this.handleSubmit}>
-                        <a href="#" className="close">&times;</a>
                         <div className={'breadcrum activePage__' + this.state.currentStep}>
                             <BreadcrumBnt currentStep={this.state.currentStep} nr='1' click={() => this.setState({ currentStep: 1 })} value='gå direkte til valg av frekvens og beløp' icon='fas fa-hand-holding-usd' />
                             <BreadcrumBnt currentStep={this.state.currentStep} nr='2' click={() => this.setState({ currentStep: 2 })} value='gå direkte til betalingsvalg' icon='fas fa-credit-card' />
