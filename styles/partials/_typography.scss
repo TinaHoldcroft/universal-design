@@ -3,15 +3,6 @@
 //font-family: open-sans, sans-serif;
 //font-family: 'Atkinson Hyperlegible', sans-serif;
 
-::-webkit-scrollbar-thumb {
-    background: #a3a3a3;
-}
-::-webkit-scrollbar {
-    width: 8px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: $yellow;
-}
 body,
 html {
     scroll-behavior: smooth;
@@ -52,4 +43,7 @@ h2 {
 p {
     font-size: 0.95em;
     font-weight: 400;
+}
+label, fieldset, h5, li {
+    text-transform: capitalize;
 }

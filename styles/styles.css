@@ -231,6 +231,10 @@ p {
   font-weight: 400;
 }
 
+label, fieldset, h5, li {
+  text-transform: capitalize;
+}
+
 .sr-only:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -260,15 +264,15 @@ p {
 
 @keyframes particle-animation-1 {
   100% {
-    transform: translate3d(73vw, 37vh, 40px);
+    transform: translate3d(5vw, 81vh, 86px);
   }
 }
 .particle:nth-child(1) {
   animation: particle-animation-1 60s infinite;
-  height: 44px;
-  width: 44px;
+  height: 27px;
+  width: 27px;
   animation-delay: -0.2s;
-  transform: translate3d(3vw, 75vh, 65px);
+  transform: translate3d(76vw, 10vh, 95px);
 }
 
 .particle:nth-child(1n),
@@ -312,15 +316,15 @@ p {
 
 @keyframes particle-animation-2 {
   100% {
-    transform: translate3d(77vw, 25vh, 24px);
+    transform: translate3d(42vw, 9vh, 34px);
   }
 }
 .particle:nth-child(2) {
   animation: particle-animation-2 60s infinite;
-  height: 17px;
-  width: 17px;
+  height: 36px;
+  width: 36px;
   animation-delay: -0.4s;
-  transform: translate3d(88vw, 8vh, 50px);
+  transform: translate3d(27vw, 84vh, 20px);
 }
 
 .particle:nth-child(1n),
@@ -364,15 +368,15 @@ p {
 
 @keyframes particle-animation-3 {
   100% {
-    transform: translate3d(69vw, 41vh, 81px);
+    transform: translate3d(5vw, 90vh, 11px);
   }
 }
 .particle:nth-child(3) {
   animation: particle-animation-3 60s infinite;
-  height: 13px;
-  width: 13px;
+  height: 42px;
+  width: 42px;
   animation-delay: -0.6s;
-  transform: translate3d(10vw, 39vh, 48px);
+  transform: translate3d(41vw, 57vh, 41px);
 }
 
 .particle:nth-child(1n),
@@ -416,15 +420,15 @@ p {
 
 @keyframes particle-animation-4 {
   100% {
-    transform: translate3d(13vw, 15vh, 9px);
+    transform: translate3d(89vw, 71vh, 75px);
   }
 }
 .particle:nth-child(4) {
   animation: particle-animation-4 60s infinite;
-  height: 24px;
-  width: 24px;
+  height: 12px;
+  width: 12px;
   animation-delay: -0.8s;
-  transform: translate3d(74vw, 15vh, 9px);
+  transform: translate3d(39vw, 37vh, 62px);
 }
 
 .particle:nth-child(1n),
@@ -468,15 +472,15 @@ p {
 
 @keyframes particle-animation-5 {
   100% {
-    transform: translate3d(86vw, 63vh, 35px);
+    transform: translate3d(61vw, 37vh, 28px);
   }
 }
 .particle:nth-child(5) {
   animation: particle-animation-5 60s infinite;
-  height: 30px;
-  width: 30px;
+  height: 26px;
+  width: 26px;
   animation-delay: -1s;
-  transform: translate3d(26vw, 30vh, 29px);
+  transform: translate3d(84vw, 59vh, 65px);
 }
 
 .particle:nth-child(1n),
@@ -520,15 +524,15 @@ p {
 
 @keyframes particle-animation-6 {
   100% {
-    transform: translate3d(49vw, 60vh, 32px);
+    transform: translate3d(44vw, 29vh, 9px);
   }
 }
 .particle:nth-child(6) {
   animation: particle-animation-6 60s infinite;
-  height: 28px;
-  width: 28px;
+  height: 19px;
+  width: 19px;
   animation-delay: -1.2s;
-  transform: translate3d(37vw, 7vh, 41px);
+  transform: translate3d(88vw, 41vh, 64px);
 }
 
 .particle:nth-child(1n),
@@ -572,15 +576,15 @@ p {
 
 @keyframes particle-animation-7 {
   100% {
-    transform: translate3d(74vw, 61vh, 33px);
+    transform: translate3d(49vw, 52vh, 14px);
   }
 }
 .particle:nth-child(7) {
   animation: particle-animation-7 60s infinite;
-  height: 32px;
-  width: 32px;
+  height: 9px;
+  width: 9px;
   animation-delay: -1.4s;
-  transform: translate3d(74vw, 30vh, 1px);
+  transform: translate3d(5vw, 58vh, 16px);
 }
 
 .particle:nth-child(1n),
@@ -624,15 +628,15 @@ p {
 
 @keyframes particle-animation-8 {
   100% {
-    transform: translate3d(78vw, 55vh, 46px);
+    transform: translate3d(1vw, 73vh, 60px);
   }
 }
 .particle:nth-child(8) {
   animation: particle-animation-8 60s infinite;
-  height: 17px;
-  width: 17px;
+  height: 28px;
+  width: 28px;
   animation-delay: -1.6s;
-  transform: translate3d(84vw, 59vh, 100px);
+  transform: translate3d(56vw, 68vh, 49px);
 }
 
 .particle:nth-child(1n),
@@ -676,15 +680,15 @@ p {
 
 @keyframes particle-animation-9 {
   100% {
-    transform: translate3d(85vw, 30vh, 13px);
+    transform: translate3d(29vw, 70vh, 45px);
   }
 }
 .particle:nth-child(9) {
   animation: particle-animation-9 60s infinite;
-  height: 37px;
-  width: 37px;
+  height: 27px;
+  width: 27px;
   animation-delay: -1.8s;
-  transform: translate3d(90vw, 87vh, 52px);
+  transform: translate3d(64vw, 77vh, 52px);
 }
 
 .particle:nth-child(1n),
@@ -728,15 +732,15 @@ p {
 
 @keyframes particle-animation-10 {
   100% {
-    transform: translate3d(39vw, 47vh, 55px);
+    transform: translate3d(60vw, 87vh, 57px);
   }
 }
 .particle:nth-child(10) {
   animation: particle-animation-10 60s infinite;
-  height: 39px;
-  width: 39px;
+  height: 12px;
+  width: 12px;
   animation-delay: -2s;
-  transform: translate3d(19vw, 62vh, 38px);
+  transform: translate3d(23vw, 13vh, 2px);
 }
 
 .particle:nth-child(1n),
@@ -780,15 +784,15 @@ p {
 
 @keyframes particle-animation-11 {
   100% {
-    transform: translate3d(39vw, 37vh, 65px);
+    transform: translate3d(27vw, 58vh, 25px);
   }
 }
 .particle:nth-child(11) {
   animation: particle-animation-11 60s infinite;
-  height: 9px;
-  width: 9px;
+  height: 7px;
+  width: 7px;
   animation-delay: -2.2s;
-  transform: translate3d(29vw, 56vh, 33px);
+  transform: translate3d(72vw, 72vh, 7px);
 }
 
 .particle:nth-child(1n),
@@ -832,15 +836,15 @@ p {
 
 @keyframes particle-animation-12 {
   100% {
-    transform: translate3d(18vw, 78vh, 24px);
+    transform: translate3d(60vw, 39vh, 58px);
   }
 }
 .particle:nth-child(12) {
   animation: particle-animation-12 60s infinite;
-  height: 36px;
-  width: 36px;
+  height: 18px;
+  width: 18px;
   animation-delay: -2.4s;
-  transform: translate3d(54vw, 2vh, 14px);
+  transform: translate3d(10vw, 1vh, 5px);
 }
 
 .particle:nth-child(1n),
@@ -884,15 +888,15 @@ p {
 
 @keyframes particle-animation-13 {
   100% {
-    transform: translate3d(36vw, 9vh, 10px);
+    transform: translate3d(36vw, 75vh, 22px);
   }
 }
 .particle:nth-child(13) {
   animation: particle-animation-13 60s infinite;
-  height: 10px;
-  width: 10px;
+  height: 8px;
+  width: 8px;
   animation-delay: -2.6s;
-  transform: translate3d(24vw, 15vh, 55px);
+  transform: translate3d(68vw, 51vh, 55px);
 }
 
 .particle:nth-child(1n),
@@ -936,15 +940,15 @@ p {
 
 @keyframes particle-animation-14 {
   100% {
-    transform: translate3d(62vw, 69vh, 37px);
+    transform: translate3d(48vw, 33vh, 98px);
   }
 }
 .particle:nth-child(14) {
   animation: particle-animation-14 60s infinite;
-  height: 18px;
-  width: 18px;
+  height: 21px;
+  width: 21px;
   animation-delay: -2.8s;
-  transform: translate3d(23vw, 6vh, 23px);
+  transform: translate3d(5vw, 65vh, 59px);
 }
 
 .particle:nth-child(1n),
@@ -988,15 +992,15 @@ p {
 
 @keyframes particle-animation-15 {
   100% {
-    transform: translate3d(11vw, 6vh, 45px);
+    transform: translate3d(74vw, 81vh, 80px);
   }
 }
 .particle:nth-child(15) {
   animation: particle-animation-15 60s infinite;
-  height: 37px;
-  width: 37px;
+  height: 42px;
+  width: 42px;
   animation-delay: -3s;
-  transform: translate3d(64vw, 2vh, 71px);
+  transform: translate3d(27vw, 25vh, 43px);
 }
 
 .particle:nth-child(1n),
@@ -1040,15 +1044,15 @@ p {
 
 @keyframes particle-animation-16 {
   100% {
-    transform: translate3d(64vw, 34vh, 45px);
+    transform: translate3d(76vw, 65vh, 82px);
   }
 }
 .particle:nth-child(16) {
   animation: particle-animation-16 60s infinite;
-  height: 11px;
-  width: 11px;
+  height: 30px;
+  width: 30px;
   animation-delay: -3.2s;
-  transform: translate3d(17vw, 62vh, 38px);
+  transform: translate3d(19vw, 73vh, 54px);
 }
 
 .particle:nth-child(1n),
@@ -1092,15 +1096,15 @@ p {
 
 @keyframes particle-animation-17 {
   100% {
-    transform: translate3d(65vw, 16vh, 11px);
+    transform: translate3d(47vw, 65vh, 61px);
   }
 }
 .particle:nth-child(17) {
   animation: particle-animation-17 60s infinite;
-  height: 25px;
-  width: 25px;
+  height: 18px;
+  width: 18px;
   animation-delay: -3.4s;
-  transform: translate3d(23vw, 85vh, 22px);
+  transform: translate3d(16vw, 76vh, 58px);
 }
 
 .particle:nth-child(1n),
@@ -1144,15 +1148,15 @@ p {
 
 @keyframes particle-animation-18 {
   100% {
-    transform: translate3d(41vw, 18vh, 29px);
+    transform: translate3d(83vw, 47vh, 56px);
   }
 }
 .particle:nth-child(18) {
   animation: particle-animation-18 60s infinite;
-  height: 39px;
-  width: 39px;
+  height: 8px;
+  width: 8px;
   animation-delay: -3.6s;
-  transform: translate3d(67vw, 13vh, 47px);
+  transform: translate3d(52vw, 46vh, 44px);
 }
 
 .particle:nth-child(1n),
@@ -1196,15 +1200,15 @@ p {
 
 @keyframes particle-animation-19 {
   100% {
-    transform: translate3d(13vw, 72vh, 92px);
+    transform: translate3d(26vw, 79vh, 99px);
   }
 }
 .particle:nth-child(19) {
   animation: particle-animation-19 60s infinite;
-  height: 8px;
-  width: 8px;
+  height: 18px;
+  width: 18px;
   animation-delay: -3.8s;
-  transform: translate3d(14vw, 33vh, 28px);
+  transform: translate3d(36vw, 73vh, 93px);
 }
 
 .particle:nth-child(1n),
@@ -1248,15 +1252,15 @@ p {
 
 @keyframes particle-animation-20 {
   100% {
-    transform: translate3d(21vw, 50vh, 48px);
+    transform: translate3d(38vw, 20vh, 37px);
   }
 }
 .particle:nth-child(20) {
   animation: particle-animation-20 60s infinite;
-  height: 9px;
-  width: 9px;
+  height: 11px;
+  width: 11px;
   animation-delay: -4s;
-  transform: translate3d(90vw, 61vh, 80px);
+  transform: translate3d(50vw, 75vh, 79px);
 }
 
 .particle:nth-child(1n),
@@ -1300,15 +1304,15 @@ p {
 
 @keyframes particle-animation-21 {
   100% {
-    transform: translate3d(82vw, 13vh, 49px);
+    transform: translate3d(81vw, 50vh, 22px);
   }
 }
 .particle:nth-child(21) {
   animation: particle-animation-21 60s infinite;
-  height: 15px;
-  width: 15px;
+  height: 14px;
+  width: 14px;
   animation-delay: -4.2s;
-  transform: translate3d(15vw, 67vh, 59px);
+  transform: translate3d(26vw, 81vh, 64px);
 }
 
 .particle:nth-child(1n),
@@ -1352,15 +1356,15 @@ p {
 
 @keyframes particle-animation-22 {
   100% {
-    transform: translate3d(74vw, 26vh, 81px);
+    transform: translate3d(55vw, 67vh, 13px);
   }
 }
 .particle:nth-child(22) {
   animation: particle-animation-22 60s infinite;
-  height: 26px;
-  width: 26px;
+  height: 14px;
+  width: 14px;
   animation-delay: -4.4s;
-  transform: translate3d(24vw, 72vh, 46px);
+  transform: translate3d(63vw, 56vh, 88px);
 }
 
 .particle:nth-child(1n),
@@ -1404,15 +1408,15 @@ p {
 
 @keyframes particle-animation-23 {
   100% {
-    transform: translate3d(59vw, 17vh, 76px);
+    transform: translate3d(79vw, 82vh, 39px);
   }
 }
 .particle:nth-child(23) {
   animation: particle-animation-23 60s infinite;
-  height: 6px;
-  width: 6px;
+  height: 31px;
+  width: 31px;
   animation-delay: -4.6s;
-  transform: translate3d(19vw, 86vh, 26px);
+  transform: translate3d(8vw, 13vh, 53px);
 }
 
 .particle:nth-child(1n),
@@ -1456,15 +1460,15 @@ p {
 
 @keyframes particle-animation-24 {
   100% {
-    transform: translate3d(26vw, 48vh, 51px);
+    transform: translate3d(70vw, 12vh, 30px);
   }
 }
 .particle:nth-child(24) {
   animation: particle-animation-24 60s infinite;
-  height: 30px;
-  width: 30px;
+  height: 24px;
+  width: 24px;
   animation-delay: -4.8s;
-  transform: translate3d(3vw, 2vh, 75px);
+  transform: translate3d(88vw, 2vh, 82px);
 }
 
 .particle:nth-child(1n),
@@ -1508,15 +1512,15 @@ p {
 
 @keyframes particle-animation-25 {
   100% {
-    transform: translate3d(15vw, 35vh, 27px);
+    transform: translate3d(45vw, 63vh, 82px);
   }
 }
 .particle:nth-child(25) {
   animation: particle-animation-25 60s infinite;
-  height: 11px;
-  width: 11px;
+  height: 17px;
+  width: 17px;
   animation-delay: -5s;
-  transform: translate3d(1vw, 45vh, 63px);
+  transform: translate3d(38vw, 71vh, 43px);
 }
 
 .particle:nth-child(1n),
@@ -1560,15 +1564,15 @@ p {
 
 @keyframes particle-animation-26 {
   100% {
-    transform: translate3d(30vw, 13vh, 98px);
+    transform: translate3d(56vw, 27vh, 65px);
   }
 }
 .particle:nth-child(26) {
   animation: particle-animation-26 60s infinite;
-  height: 40px;
-  width: 40px;
+  height: 43px;
+  width: 43px;
   animation-delay: -5.2s;
-  transform: translate3d(19vw, 66vh, 77px);
+  transform: translate3d(3vw, 40vh, 30px);
 }
 
 .particle:nth-child(1n),
@@ -1612,15 +1616,15 @@ p {
 
 @keyframes particle-animation-27 {
   100% {
-    transform: translate3d(53vw, 39vh, 96px);
+    transform: translate3d(62vw, 43vh, 27px);
   }
 }
 .particle:nth-child(27) {
   animation: particle-animation-27 60s infinite;
-  height: 14px;
-  width: 14px;
+  height: 36px;
+  width: 36px;
   animation-delay: -5.4s;
-  transform: translate3d(5vw, 47vh, 79px);
+  transform: translate3d(58vw, 52vh, 18px);
 }
 
 .particle:nth-child(1n),
@@ -1664,15 +1668,15 @@ p {
 
 @keyframes particle-animation-28 {
   100% {
-    transform: translate3d(76vw, 79vh, 81px);
+    transform: translate3d(75vw, 56vh, 12px);
   }
 }
 .particle:nth-child(28) {
   animation: particle-animation-28 60s infinite;
-  height: 37px;
-  width: 37px;
+  height: 9px;
+  width: 9px;
   animation-delay: -5.6s;
-  transform: translate3d(84vw, 53vh, 20px);
+  transform: translate3d(39vw, 36vh, 30px);
 }
 
 .particle:nth-child(1n),
@@ -1716,15 +1720,15 @@ p {
 
 @keyframes particle-animation-29 {
   100% {
-    transform: translate3d(30vw, 36vh, 63px);
+    transform: translate3d(15vw, 84vh, 56px);
   }
 }
 .particle:nth-child(29) {
   animation: particle-animation-29 60s infinite;
-  height: 20px;
-  width: 20px;
+  height: 27px;
+  width: 27px;
   animation-delay: -5.8s;
-  transform: translate3d(86vw, 65vh, 35px);
+  transform: translate3d(71vw, 7vh, 9px);
 }
 
 .particle:nth-child(1n),
@@ -1768,15 +1772,15 @@ p {
 
 @keyframes particle-animation-30 {
   100% {
-    transform: translate3d(5vw, 27vh, 87px);
+    transform: translate3d(76vw, 84vh, 96px);
   }
 }
 .particle:nth-child(30) {
   animation: particle-animation-30 60s infinite;
-  height: 36px;
-  width: 36px;
+  height: 28px;
+  width: 28px;
   animation-delay: -6s;
-  transform: translate3d(10vw, 11vh, 69px);
+  transform: translate3d(2vw, 39vh, 31px);
 }
 
 .particle:nth-child(1n),
@@ -1841,6 +1845,7 @@ p {
   padding: 0.25em 2em;
   font-size: 0.7em;
   letter-spacing: 0.1em;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -2288,21 +2293,32 @@ p {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: center;
   align-self: auto;
   align-content: flex-start;
   gap: 0;
   position: fixed;
-  bottom: 0.5vmax;
-  right: 0.5vmax;
+  bottom: 0vmax;
+  right: 0vmax;
   background-color: #ffffff;
   padding: 5vmax;
-  border: solid 2px #ffd500;
-  max-width: 100vw;
-  min-height: 50vh;
-  border-radius: 15px;
+  box-shadow: -2px -2px 16px #969696;
+  width: 100vw;
+  height: 60vh;
 }
-.chat-window .right, .chat-window .left {
+.chat-window .left,
+.chat-window .right {
+  width: 60%;
+}
+.chat-window .left p,
+.chat-window .right p {
+  padding: 1vmax;
+  border-radius: 10px;
+  font-size: 0.7em;
+  margin: 1vmax;
+  background-color: #ebebeb;
+}
+.chat-window .left {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -2315,13 +2331,22 @@ p {
   align-content: flex-start;
   gap: 0;
 }
+.chat-window .right {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: stretch;
+  align-self: auto;
+  align-content: flex-end;
+  gap: 0;
+}
 .chat-window img {
-  height: 35px;
+  height: auto;
   width: 35px;
-  border: solid 6px #ffffff;
-  border-radius: 50%;
-  outline: solid 2px #ffd500;
-  margin-top: 10px;
 }
 .chat-window #close {
   position: absolute;
@@ -2331,13 +2356,6 @@ p {
   border: none;
   margin: 0.3rem 0.75rem;
   font-size: 1.5em;
-}
-.chat-window p {
-  padding: 1vmax;
-  border-radius: 10px;
-  font-size: 0.7em;
-  margin: 1vmax;
-  background-color: #ebebeb;
 }
 .chat-window.--close {
   display: none;
@@ -2386,6 +2404,38 @@ p {
 }
 .message-loader .three {
   animation: message-loader 0.8s ease-in-out 0.6s infinite;
+}
+
+#chatSubmit {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: auto;
+  align-content: flex-start;
+  gap: 0;
+  width: 100%;
+}
+#chatSubmit textarea {
+  background-color: #ebebeb;
+  margin: 2rem 0 0 0;
+  padding: 1em;
+  border: none;
+  width: 60%;
+}
+#chatSubmit textarea:focus {
+  outline: 2px solid #ffd500;
+}
+#chatSubmit div {
+  width: 60%;
+}
+#chatSubmit div button {
+  width: 50%;
+  height: 3rem;
 }
 
 .masterform-wrapper {
@@ -2438,13 +2488,13 @@ p {
   transform-style: preserve-3d;
   transform: translateZ(0);
   transition: all 0.15s ease-in-out;
-  border: 1.5px solid #ffffff;
+  border: 2px solid #ffffff;
   background-color: #ffffff49;
   position: relative;
 }
 .txt-panel .action-group .btn button {
   background-color: #ffffff;
-  border: 1.5px solid #ffffff;
+  border: 2px solid #ffffff;
   position: relative;
   width: 13rem;
   height: 2.4rem;
@@ -2463,7 +2513,7 @@ p {
   text-transform: uppercase;
 }
 .txt-panel .action-group .btn button:focus {
-  border: 1.5px solid #ffffff;
+  border: 2px solid #ffffff;
   background-color: white;
   outline-offset: 4px;
   outline: 2px solid #ebebeb;
@@ -2474,7 +2524,7 @@ p {
 }
 .txt-panel .action-group .btn:hover button, .txt-panel .action-group .btn:focus button {
   transition: all 0.5s;
-  transform: translate3d(0.5em, -0.4em, 0);
+  transform: translate3d(0.4em, -0.5em, 0);
   outline: none;
 }
 
@@ -2571,7 +2621,7 @@ input[type=radio]:checked ~ label, input[type=radio]:focus ~ label, input[type=r
 
 fieldset {
   border: none;
-  margin: 2rem 0 0 0;
+  margin: 1em 0 0 0;
 }
 
 #date {
@@ -2881,13 +2931,13 @@ fieldset {
   transform-style: preserve-3d;
   transform: translateZ(0);
   transition: all 0.15s ease-in-out;
-  border: 1.5px solid #ffffff;
-  background-color: #ffffff49;
+  border: 2px solid #ffffff;
+  background-color: #ffffff6b;
   position: relative;
 }
 .campaign .txt .btn button {
   background-color: #ffffff;
-  border: 1.5px solid #ffffff;
+  border: 2px solid #ffffff;
   position: relative;
   width: 12rem;
   height: 3rem;
@@ -2906,7 +2956,7 @@ fieldset {
   text-transform: uppercase;
 }
 .campaign .txt .btn button:focus {
-  border: 1.5px solid #ffffff;
+  border: 2px solid #ffffff;
   background-color: white;
   outline-offset: 4px;
   outline: 2px solid #ebebeb;
@@ -2917,7 +2967,7 @@ fieldset {
 }
 .campaign .txt .btn:hover button, .campaign .txt .btn:focus button {
   transition: all 0.5s;
-  transform: translate3d(0.5em, -0.4em, 0);
+  transform: translate3d(0.4em, -0.5em, 0);
   outline: none;
 }
 @media only screen and (max-width: 1000px) {
@@ -2927,13 +2977,13 @@ fieldset {
     transform-style: preserve-3d;
     transform: translateZ(0);
     transition: all 0.15s ease-in-out;
-    border: 1.5px solid #ffffff;
-    background-color: #ffffff49;
+    border: 2px solid #ffffff;
+    background-color: #ffffff6b;
     position: relative;
   }
   .campaign .txt .btn button {
     background-color: #ffffff;
-    border: 1.5px solid #ffffff;
+    border: 2px solid #ffffff;
     position: relative;
     width: 8.5rem;
     height: 3rem;
@@ -2952,7 +3002,7 @@ fieldset {
     text-transform: uppercase;
   }
   .campaign .txt .btn button:focus {
-    border: 1.5px solid #ffffff;
+    border: 2px solid #ffffff;
     background-color: white;
     outline-offset: 4px;
     outline: 2px solid #ebebeb;
@@ -2963,7 +3013,7 @@ fieldset {
   }
   .campaign .txt .btn:hover button, .campaign .txt .btn:focus button {
     transition: all 0.5s;
-    transform: translate3d(0.5em, -0.4em, 0);
+    transform: translate3d(0.4em, -0.5em, 0);
     outline: none;
   }
 }
@@ -3020,14 +3070,14 @@ fieldset {
   transform-style: preserve-3d;
   transform: translateZ(0);
   transition: all 0.15s ease-in-out;
-  border: 1.5px solid #ffd500;
+  border: 2px solid #ffd500;
   background-color: #ffee99;
   position: relative;
   margin: 1.5rem 0 0 0;
 }
 .card .btn button {
   background-color: #ffd500;
-  border: 1.5px solid #ffd500;
+  border: 2px solid #ffd500;
   position: relative;
   width: 12rem;
   height: 3rem;
@@ -3046,7 +3096,7 @@ fieldset {
   text-transform: uppercase;
 }
 .card .btn button:focus {
-  border: 1.5px solid #ffd500;
+  border: 2px solid #ffd500;
   background-color: #ffee99;
   outline-offset: 4px;
   outline: 2px solid #ebebeb;
@@ -3057,7 +3107,7 @@ fieldset {
 }
 .card .btn:hover button, .card .btn:focus button {
   transition: all 0.5s;
-  transform: translate3d(0.5em, -0.4em, 0);
+  transform: translate3d(0.4em, -0.5em, 0);
   outline: none;
 }
 .card h2 {
@@ -3134,7 +3184,7 @@ tbody .table-giver__row:nth-child(even) {
 }
 .tile h3 {
   border-bottom: 3px solid #ffe666;
-  margin-bottom: 2px;
+  margin-bottom: 2.5px;
   font-size: 1.5em;
   font-weight: 400;
   padding: 0.6rem 0.5rem;
@@ -3200,13 +3250,13 @@ nav .btn {
   transform-style: preserve-3d;
   transform: translateZ(0);
   transition: all 0.15s ease-in-out;
-  border: 1.5px solid #ffd500;
+  border: 2px solid #ffd500;
   background-color: #ffee99;
   position: relative;
 }
 nav .btn button {
   background-color: #ffd500;
-  border: 1.5px solid #ffd500;
+  border: 2px solid #ffd500;
   position: relative;
   width: 6.8rem;
   height: 2.2rem;
@@ -3225,7 +3275,7 @@ nav .btn button::first-letter {
   text-transform: uppercase;
 }
 nav .btn button:focus {
-  border: 1.5px solid #ffd500;
+  border: 2px solid #ffd500;
   background-color: #ffee99;
   outline-offset: 4px;
   outline: 2px solid #ebebeb;
@@ -3236,7 +3286,7 @@ nav .btn:hover, nav .btn:focus {
 }
 nav .btn:hover button, nav .btn:focus button {
   transition: all 0.5s;
-  transform: translate3d(0.5em, -0.4em, 0);
+  transform: translate3d(0.4em, -0.5em, 0);
   outline: none;
 }
 @media only screen and (max-width: 1200px) {
@@ -3437,7 +3487,7 @@ footer {
   align-items: flex-start;
   align-self: auto;
   align-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 @media only screen and (max-width: 1000px) {
   .content-index .tile-container {
@@ -3494,9 +3544,10 @@ footer {
   align-items: center;
   align-self: center;
   align-content: center;
-  gap: 0rem;
-  margin: 0 0 0 0;
+  gap: 2.5rem;
   height: calc(100vh - 3.5rem);
+  max-width: 1280px;
+  margin-bottom: 20vh;
 }
 .hero-index .txt {
   display: -webkit-box;
@@ -3530,13 +3581,13 @@ footer {
   transform-style: preserve-3d;
   transform: translateZ(0);
   transition: all 0.15s ease-in-out;
-  border: 1.5px solid #ffd500;
+  border: 2px solid #ffd500;
   background-color: #ffee99;
   position: relative;
 }
 .hero-index .positive button {
   background-color: #ffd500;
-  border: 1.5px solid #ffd500;
+  border: 2px solid #ffd500;
   position: relative;
   width: 10rem;
   height: 2.4rem;
@@ -3555,7 +3606,7 @@ footer {
   text-transform: uppercase;
 }
 .hero-index .positive button:focus {
-  border: 1.5px solid #ffd500;
+  border: 2px solid #ffd500;
   background-color: #ffee99;
   outline-offset: 4px;
   outline: 2px solid #ebebeb;
@@ -3566,7 +3617,7 @@ footer {
 }
 .hero-index .positive:hover button, .hero-index .positive:focus button {
   transition: all 0.5s;
-  transform: translate3d(0.5em, -0.4em, 0);
+  transform: translate3d(0.4em, -0.5em, 0);
   outline: none;
 }
 .hero-index .negative {
@@ -3575,13 +3626,13 @@ footer {
   transform-style: preserve-3d;
   transform: translateZ(0);
   transition: all 0.15s ease-in-out;
-  border: 1.5px solid #e3e3e3;
+  border: 2px solid #e3e3e3;
   background-color: #f5f5f5;
   position: relative;
 }
 .hero-index .negative button {
   background-color: #e3e3e3;
-  border: 1.5px solid #e3e3e3;
+  border: 2px solid #e3e3e3;
   position: relative;
   width: 10rem;
   height: 2.4rem;
@@ -3600,7 +3651,7 @@ footer {
   text-transform: uppercase;
 }
 .hero-index .negative button:focus {
-  border: 1.5px solid #e3e3e3;
+  border: 2px solid #e3e3e3;
   background-color: white;
   outline-offset: 4px;
   outline: 2px solid #ebebeb;
@@ -3611,7 +3662,7 @@ footer {
 }
 .hero-index .negative:hover button, .hero-index .negative:focus button {
   transition: all 0.5s;
-  transform: translate3d(0.5em, -0.4em, 0);
+  transform: translate3d(0.4em, -0.5em, 0);
   outline: none;
 }
 .hero-index .btn-group {
@@ -3659,17 +3710,17 @@ footer {
   display: -webkit-flex;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: stretch;
-  align-self: auto;
-  align-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
   gap: 10vw;
   max-width: 1280px;
+  height: calc(100vh - 3.5rem);
 }
 .not-found img {
-  height: 70vh;
+  max-height: 70vh;
   width: auto;
-  flex: 1;
 }
 .not-found div {
   display: -webkit-box;
@@ -3680,7 +3731,7 @@ footer {
   flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: flex-start;
-  align-self: flex-start;
+  align-self: center;
   align-content: flex-start;
   gap: 2em;
   flex: 1;
@@ -3690,18 +3741,29 @@ footer {
   font-weight: 600;
 }
 .not-found .btn {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+  align-content: flex-start;
+  gap: 0;
   width: 13rem;
   height: 2.4rem;
   transform-style: preserve-3d;
   transform: translateZ(0);
   transition: all 0.15s ease-in-out;
-  border: 1.5px solid #ffd500;
+  border: 2px solid #ffd500;
   background-color: #ffee99;
   position: relative;
 }
 .not-found .btn button {
   background-color: #ffd500;
-  border: 1.5px solid #ffd500;
+  border: 2px solid #ffd500;
   position: relative;
   width: 13rem;
   height: 2.4rem;
@@ -3720,7 +3782,7 @@ footer {
   text-transform: uppercase;
 }
 .not-found .btn button:focus {
-  border: 1.5px solid #ffd500;
+  border: 2px solid #ffd500;
   background-color: #ffee99;
   outline-offset: 4px;
   outline: 2px solid #ebebeb;
@@ -3731,17 +3793,34 @@ footer {
 }
 .not-found .btn:hover button, .not-found .btn:focus button {
   transition: all 0.5s;
-  transform: translate3d(0.5em, -0.4em, 0);
+  transform: translate3d(0.4em, -0.5em, 0);
   outline: none;
 }
 
 .generator-background {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -2px;
   z-index: -9;
   width: 100vw;
   height: auto;
+}
+
+.generator-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  gap: 1.2rem;
+}
+.generator-container img {
+  max-height: 70vh;
 }
 
 .braille-generator {
@@ -3784,6 +3863,9 @@ footer {
   padding: 0.75rem 1rem;
 }
 .braille-generator textarea:focus {
+  border: 5px solid #ffd500;
+  outline: none;
+  background-color: #ffffff;
   outline: none;
 }
 .braille-generator button {
@@ -3791,7 +3873,6 @@ footer {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 700;
-  background: transparent;
   border: none;
   width: clamp(90%, 90vw, 30rem);
   height: 3rem;

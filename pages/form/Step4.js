@@ -4,8 +4,7 @@ export default function Step4(props) {
     return (
         <>
             <div className='complete'>
-                <h2>Tusen takk - du er super! </h2>
-                <p>Din gave sørger for at vi kan hjelpe et menneske tilbake til et aktivt liv når synet svikter.</p>
+                <h2>Thank you</h2>
                 <div className='checkmark-circle'>
                     <svg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='-263.5 236.5 26 26'>
                         <g className='checkmark'>

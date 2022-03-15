@@ -31,3 +31,12 @@ main {
     min-height: 100vh;
     width: 100vw;
 }
+::-webkit-scrollbar-thumb {
+    background: #a3a3a3;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: $yellow;
+}

@@ -1,13 +1,13 @@
 .not-found {
-    @include flex(row nowrap, space-between, stretch, auto, flex-start, 10vw);
+    @include flex(row nowrap, center, center, center, center, 10vw);
     max-width: 1280px;
+    height: calc(100vh - 3.5rem);
     img {
-        height: 70vh;
+        max-height: 70vh;
         width: auto;
-        flex: 1;
     }
     div {
-        @include flex(column nowrap, flex-start, flex-start, flex-start, flex-start, 2em);
+        @include flex(column nowrap, flex-start, flex-start, center, flex-start, 2em);
         flex: 1;
         h1 {
             font-size: 8em;
@@ -15,6 +15,7 @@
         }
     }
     .btn { 
+        @include flex(column nowrap, flex-start, flex-start, flex-start, flex-start, 0);
         @include BTN($yellow, 13rem, 2.4rem, 0.8em); 
     }
 }

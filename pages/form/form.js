@@ -10,7 +10,6 @@ import Txt4 from './Txt4';
 import BreadcrumBnt from './Breadcrum';
 import FlatBtn from './FlatBtn';
 import PaymentBtn from './PaymentBtn';
-import Head from 'next/head'
 
 class MasterForm extends React.Component {
 
@@ -18,9 +17,9 @@ class MasterForm extends React.Component {
         super(props)
         this.state = {
             currentStep: 1,
-            frequency: 'en gang',
+            frequency: 'one time',
             amount: '300',
-            deduction: 'nei',
+            deduction: 'no',
             birthdate: '',
             paymentType: 'vipps',
             telephone: '',
@@ -49,11 +48,10 @@ class MasterForm extends React.Component {
         let deduction = this.state.deduction;
 
         if (currentStep === 2) {
-            if (deduction === 'ja') {
+            if (deduction === 'yes') {
                 return (
                     <div className='txt-input-wrapper'>
-                        <p>For å gi deg skattefradrag trenger vi fødselsdatoen din</p>
-                        <label htmlFor='birthdate'>Fødselsdato</label>
+                        <p>To get a tex deduction you must enter your date of brith</p>
                         <input id='birthdate' name='birthdate' type='date' value={this.state.birthdate} onChange={this.handleChange} min='1900-01-01' max='2005-12-31' required />
                     </div>
                 )
@@ -66,31 +64,31 @@ class MasterForm extends React.Component {
         let frequency = this.state.frequency;
         let paymentType = this.state.paymentType;
 
-        if (currentStep === 1) { return <FlatBtn type='button' value='neste' direction='right' click={this._next} /> }
+        if (currentStep === 1) { return <FlatBtn type='button' value='next' direction='right' click={this._next} /> }
         if (currentStep === 2) {
-            if (frequency === 'en gang') {
+            if (frequency === 'one time') {
                 return (
                     <>
                         <fieldset className='payment'>
-                            <legend className='sr-only'>Velg Betalingsform</legend>
+                            <legend className='sr-only'>choose payment method</legend>
                             <PaymentBtn handleChange={this.handleChange} paymentType={this.state.paymentType} value='vipps' />
                             <PaymentBtn handleChange={this.handleChange} paymentType={this.state.paymentType} value='kort' />
                         </fieldset>
-                        <FlatBtn type='button' value='tilbake' direction='left' click={this._prev} />
-                        <FlatBtn type='submit' value='neste' direction='right' />
+                        <FlatBtn type='button' value='back' direction='left' click={this._prev} />
+                        <FlatBtn type='submit' value='next' direction='right' />
                     </>
                 )
             }
-            if (frequency === 'månedlig') {
+            if (frequency === 'montly') {
                 return (
                     <>
                         <fieldset className='payment'>
-                            <legend className='sr-only'>Velg Betalingsform</legend>
+                            <legend className='sr-only'>choose payment method</legend>
                             <PaymentBtn handleChange={this.handleChange} paymentType={this.state.paymentType} value='vipps' />
                             <PaymentBtn handleChange={this.handleChange} paymentType={this.state.paymentType} value='avtale-giro' />
                         </fieldset>
-                        <FlatBtn type='button' value='tilbake' direction='left' click={this._prev} />
-                        <FlatBtn type='submit' value='neste' direction='right' />
+                        <FlatBtn type='button' value='back' direction='left' click={this._prev} />
+                        <FlatBtn type='submit' value='next' direction='right' />
                     </>
                 )
             }
@@ -98,12 +96,12 @@ class MasterForm extends React.Component {
 
         if (currentStep === 3) {
             if (paymentType === 'vipps') {
-                return <button form='masterform' className='vipps-approve' type='submit' value='Neste'>Neste</button>
+                return <button form='masterform' className='vipps-approve' type='submit' value='next'>next</button>
             }
             return (
                 <>
-                    <FlatBtn type='button' value='tilbake' direction='left' click={this._prev} />
-                    <button form='masterform' type='submit' className='flat-btn float-right'>Send inn</button>
+                    <FlatBtn type='button' value='back' direction='left' click={this._prev} />
+                    <button form='masterform' type='submit' className='flat-btn float-right'>submit</button>
                 </>
             )
         }
@@ -123,10 +121,6 @@ class MasterForm extends React.Component {
     render() {
         return (
             <>
-                <Head>
-                    <title>Form</title>
-                </Head>
-
                 <div className='masterform-wrapper'>
                     <div className='txt-panel'>
                         <a href="#" className="close">&times;</a>
@@ -143,7 +137,7 @@ class MasterForm extends React.Component {
                         </div>
                         <Step1 currentStep={this.state.currentStep} handleChange={this.handleChange} frequency={this.state.frequency} amount={this.state.amount} />
                         <Step2 currentStep={this.state.currentStep} handleChange={this.handleChange} deduction={this.state.deduction} birthdate={this.state.birthdate} />
-                        <Step3 currentStep={this.state.currentStep} handleChange={this.handleChange} paymentType={this.state.paymentType} name={this.state.name} telephone={this.state.telephone} address={this.state.address} zip={this.state.zip} city={this.state.city} email={this.state.email} amount={this.state.amount} />
+                        <Step3 currentStep={this.state.currentStep} handleChange={this.handleChange} paymentType={this.state.paymentType} name={this.state.name} telephone={this.state.telephone} address={this.state.address} zip={this.state.zip} city={this.state.city} email={this.state.email} amount={this.state.amount} frequency={this.state.frequency} />
                         <Step4 currentStep={this.state.currentStep} />
                         {this.Inputs()}
                         {this.Buttons()}

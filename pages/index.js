@@ -4,7 +4,6 @@ import Background from '../components/background'
 import BTN from '../components/btn'
 import Campaign from '../components/campaign'
 import Card from '../components/card'
-import Person from '../components/Person'
 import Tile from '../components/tile'
 import Form from './form/form'
 
@@ -23,7 +22,7 @@ export default function Home() {
             </Head>
 
             <>
-            <Background/>
+                <Background />
                 <div className='hero-index'>
                     <div className='txt'>
                         <h1>Accessible Design for Websites</h1>
@@ -31,36 +30,17 @@ export default function Home() {
                         <div className='btn-group'>
                             <div className='positive btn'>
                                 <a href='#demo-modal-1'>
-                                    <button type='button' value='open' >
-                                        Form
-                                    </button>
+                                    <button type='button' value='open'>form</button>
                                 </a>
                             </div>
-
                             <div id="demo-modal-1" className="modal">
                                 <Form />
                             </div>
-
                             <BTN link='/generator' className='negative' value='generator' />
                         </div>
                         <p className='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
                     </div>
-
                     <img src='/woman-hearing-aide.svg' alt='' />
-
-                </div>
-
-                <div className='images'>
-                    <img src='/woman-blind.svg' alt='' />
-                    <img src='/webpages.svg' alt='' />
-                    <img src='/man-blind.svg' alt='' />
-                    <img src='/woman-wheelchair.svg' alt='' />
-                </div>
-
-                <div>
-                    {data.map((p, i) => (
-                        <Person key={i} person={p} />
-                    ))}
                 </div>
 
                 <div className='content-index'>

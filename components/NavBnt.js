@@ -4,7 +4,7 @@ function NavBtn(props) {
 
     return (
         <li className='menuitem' role='none' onClick={props.click}>
-            <Link role='menuitem' href= {`/${props.page}`}>
+            <Link role='menuitem' href={`/${props.page}`}>
                 <a>
                     <span>{props.page}</span>
                     <i className='fas fa-arrow-right' />

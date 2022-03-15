@@ -4,14 +4,13 @@ export default function Step4({ currentStep, name, address, zip, city, telephone
     
     return (
         <div className='summary'>
-            <h1>Oppsummering</h1>
+            <h1>summary</h1>
             <div>
-                <p>{name} <i>&#60;{email}&#62;</i></p>
-                <p>{amount} kr {frequency}</p>
-                <p>{telephone}</p>
+                <h2>{name} <i>&#60;{email}&#62;</i></h2>
+                <p>{amount} kr <i>({frequency})</i></p>
+                <p>+47 {telephone}</p>
                 <p>{address} </p>
                 <p>{zip} {city}</p>
-                <p>{deduction}</p>
             </div>
         </div>
     )

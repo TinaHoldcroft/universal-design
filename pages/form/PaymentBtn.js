@@ -14,7 +14,7 @@ export default function PaymentBtn(props) {
                 className={props.value + ' btn'}
                 htmlFor={props.value}
             >
-                fortsett med
+                continue with
                 <img src={'/' + props.value + '.svg'} alt={props.value} />
             </label>
         </div>

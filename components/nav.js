@@ -1,13 +1,10 @@
 
 import Mode from './constants/Mode'
-import Language from './constants/Language'
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react';
 import FocusLock from 'react-focus-lock';
 import useScrollListener from './constants/ScrollListener';
 import NavBtn from './NavBnt';
-import BTN from './btn';
-import Form from '../pages/form/form'
 
 const Nav = () => {
     const handleToggle = () => { setActive(!isActive); };
@@ -54,8 +51,14 @@ const Nav = () => {
                 </div>
                 <div className={isActive ? '--close' : 'nav--overlay'}>
                     <ol className={isActive ? '--close' : '--open'} role='menu'>
-                        <NavBtn click={handleToggle} page='ChatBot' />
-                        <NavBtn click={handleToggle} page='generator' />
+                        <NavBtn click={handleToggle} page='ChatBot' link='ChatBot' />
+                        <NavBtn click={handleToggle} page='generator' link='generator' />
+                        <NavBtn click={handleToggle} page='link' />
+                        <NavBtn click={handleToggle} page='link' />
+                        <NavBtn click={handleToggle} page='link' />
+                        <NavBtn click={handleToggle} page='link' />
+                        <NavBtn click={handleToggle} page='link' />
+                        <NavBtn click={handleToggle} page='link' />
                     </ol>
                 </div>
             </FocusLock>

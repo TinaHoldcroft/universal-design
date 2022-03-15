@@ -18,7 +18,7 @@
         }
     }
     .tile-container {
-        @include flex(column nowrap, space-between, flex-start, auto, center, 1rem);
+        @include flex(column nowrap, space-between, flex-start, auto, center, 2rem);
         @media only screen and (max-width: 1000px) {
             @include flex(column nowrap, space-between, flex-start, auto, center, 0);
         }
@@ -31,9 +31,10 @@
     }
 }
 .hero-index {
-    @include flex(row wrap, space-around, center, center, center, 0rem);
-    margin: 0 0 0 0;
+    @include flex(row wrap, space-around, center, center, center, 2.5rem);
     height: calc(100vh - 3.5rem);
+    max-width: 1280px;
+    margin-bottom: 20vh;
     .txt {
         @include flex(column nowrap, flex-start, flex-start, auto, center, 2em);
         flex: 1;
