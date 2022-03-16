@@ -13,12 +13,6 @@ html,
 body {
     scroll-behavior: smooth;
 }
-.float-right {
-    float: right;
-}
-.float-left {
-    float: left;
-}
 .arrow-link a {
     @include arrow-link;
 }
@@ -39,4 +33,10 @@ main {
 }
 ::-webkit-scrollbar-thumb:hover {
     background: $yellow;
+}
+[dark] {
+    background-color: $black;
+}
+[light] {
+    background-color: $white;
 }

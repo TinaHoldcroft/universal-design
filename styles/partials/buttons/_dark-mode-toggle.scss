@@ -14,12 +14,22 @@
         text-transform: uppercase;
     }
 }
-[dark] .mode-wrapper .dark {
-    background-color: $yellow;
-    transition: 0.3s;
+[dark] {
+    .mode-wrapper {
+        background-color: $black;
+    }
+    .mode-wrapper .dark {
+        background-color: $yellow;
+        color: $black;
+        transition: 0.3s;
+    }
 }
-[light] .mode-wrapper .light {
-    background-color: $yellow;
-    //background:linear-gradient(90deg,#fff 50%,#ffd500 50%);
-    transition: 0.3s;
+[light] {
+    .mode-wrapper {
+        background-color: $white;
+    }
+    .mode-wrapper .light {
+        background-color: $yellow;
+        transition: 0.3s;
+    }
 }

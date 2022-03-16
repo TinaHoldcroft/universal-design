@@ -22,7 +22,7 @@ export default function Home() {
             </Head>
 
             <>
-                <Background />
+
                 <div className='hero-index'>
                     <div className='txt'>
                         <h1>Accessible Design for Websites</h1>
@@ -40,7 +40,10 @@ export default function Home() {
                         </div>
                         <p className='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
                     </div>
-                    <img src='/woman-hearing-aide.svg' alt='' />
+                    <div className='img'>
+                        <Background />
+                        <img src='/woman-hearing-aide.svg' alt='' />
+                    </div>
                 </div>
 
                 <div className='content-index'>

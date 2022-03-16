@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/xzn5byu.css");
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 //font-family: open-sans, sans-serif;
 //font-family: 'Atkinson Hyperlegible', sans-serif;
 
@@ -36,14 +36,28 @@ a {
 h1,
 h2 {
     font-weight: 500;
-    font-size: clamp(1.5em, 2.5vw, 2rem);
+    font-size: clamp(1.5em, 3vw, 3rem);
     line-height: 1em;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
+    text-align: left;
+    font-family: "Atkinson Hyperlegible", sans-serif;
 }
 p {
     font-size: 0.95em;
     font-weight: 400;
 }
-label, fieldset, h5, li {
+label,
+fieldset,
+h5,
+li {
     text-transform: capitalize;
+}
+[dark]  {
+    body, a, i {
+        color: $white;
+    }
+}
+[light] {
+    body, a, i {
+        color: $black;
+    }
 }

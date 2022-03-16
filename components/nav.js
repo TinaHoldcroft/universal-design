@@ -35,7 +35,10 @@ const Nav = () => {
     return (
         <nav className={isActive ? navClassList.join(' ') : '--fixed'} id='navbar'>
             <Link href='/'>
-                <img className='logo' src='/logo.svg' alt='directlink back to homepage' />
+                <>
+                    <img className='logo light' src='/logo-light.svg' alt='directlink back to homepage' />
+                    <img className='logo dark' src='/logo-dark.svg' alt='directlink back to homepage' />
+                </>
             </Link>
 
             <Mode />
