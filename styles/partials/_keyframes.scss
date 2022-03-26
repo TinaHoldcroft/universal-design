@@ -81,3 +81,19 @@
         margin-right: -0.15em;
     }
 }
+@keyframes ThemeToggle {
+    0% {
+        left: 0;
+    }
+    100% {
+        right: 0;
+    }
+}
+@keyframes ThemeToggleReverse {
+    0% {
+        right: 0;
+    }
+    100% {
+        left: 0;
+    }
+}

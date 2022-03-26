@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useMediaQuery } from './useMediaQuery';
 
-const Mode = () => {
+const Theme = () => {
     let isPageDark = useMediaQuery('(prefers-color-scheme: dark)')
     let isPageLight = useMediaQuery('(prefers-color-scheme: light)')
     const [active, setActive] = useState('true');
@@ -36,10 +36,11 @@ const Mode = () => {
                 title={active ? 'switch to light mode' : 'switch to dark mode'}
                 onClick={switchMode}
             >
-                <div className="dark" >
+                <div className='float-bg'></div>
+                <div className='dark'>
                     dark
                 </div>
-                <div className="light" >
+                <div className='light'>
                     light
                 </div>
             </div>
@@ -47,4 +48,4 @@ const Mode = () => {
     )
 }
 
-export default Mode;
+export default Theme;

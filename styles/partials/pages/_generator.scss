@@ -1,15 +1,7 @@
-.generator-background {
-    position: absolute;
-    top: 0;
-    left: -2px;
-    z-index: -9;
-    width: 100vw;
-    height: auto;
-}
 .generator-container {
     @include flex(row nowrap, space-around, center, center, center, 1.2rem);
     img {
-        max-height: 70vh
+        max-height: 70vh;
     }
 }
 .braille-generator {
@@ -62,6 +54,29 @@
             background-color: lighten($yellow, 20%);
             background-size: 100%;
             transition: background 0s;
+        }
+    }
+}
+[dark] {
+    .braille-generator {
+        input {
+            border: 5px solid #2e343b;
+            background-color: #2e343b;
+            color: #adbac7;
+            &:focus {
+                border: 5px solid $yellow;
+            }
+        }
+        textarea {
+            border: 5px solid #2e343b;
+            background-color: #2e343b;
+            color: #adbac7;
+            &:focus {
+                border: 5px solid $yellow;
+            }
+        }
+        i {
+            color: $black;
         }
     }
 }

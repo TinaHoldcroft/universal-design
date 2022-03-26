@@ -50,6 +50,7 @@
 }
 .placeholder {
     max-width: 1000px;
+    @include flex(column nowrap, flex-start, stretch, auto, flex-start, 2rem);
 }
 .chatbot-page {
     @include flex(column nowrap, flex-start, stretch, auto, flex-start, 0);

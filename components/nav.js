@@ -1,5 +1,5 @@
 
-import Mode from './constants/Mode'
+import Theme from './constants/Theme'
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react';
 import FocusLock from 'react-focus-lock';
@@ -35,13 +35,13 @@ const Nav = () => {
     return (
         <nav className={isActive ? navClassList.join(' ') : '--fixed'} id='navbar'>
             <Link href='/'>
-                <>
+                <a>
                     <img className='logo light' src='/logo-light.svg' alt='directlink back to homepage' />
                     <img className='logo dark' src='/logo-dark.svg' alt='directlink back to homepage' />
-                </>
+                </a>
             </Link>
 
-            <Mode />
+            <Theme />
 
             <FocusLock className='focus' disabled={isActive ? true : false}>
                 <div className='nav-btn-wrapper'>

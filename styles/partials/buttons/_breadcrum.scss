@@ -26,7 +26,10 @@
         transition: 1s;
         flex-grow: 4;
     }
-    i { font-size: 1.2em; }
+    i { 
+        font-size: 1.2em; 
+        color: $black;
+    }
 }
 .line3 { display: none; }
 .activePage__1 {

@@ -72,7 +72,7 @@ class MasterForm extends React.Component {
                         <fieldset className='payment'>
                             <legend className='sr-only'>choose payment method</legend>
                             <PaymentBtn handleChange={this.handleChange} paymentType={this.state.paymentType} value='vipps' />
-                            <PaymentBtn handleChange={this.handleChange} paymentType={this.state.paymentType} value='kort' />
+                            <PaymentBtn handleChange={this.handleChange} paymentType={this.state.paymentType} value='credit-card' />
                         </fieldset>
                         <FlatBtn type='button' value='back' direction='left' click={this._prev} />
                         <FlatBtn type='submit' value='next' direction='right' />
@@ -122,8 +122,8 @@ class MasterForm extends React.Component {
         return (
             <>
                 <div className='masterform-wrapper'>
+                    <a id='closeForm' href='#' className='close'>&times;</a>
                     <div className='txt-panel'>
-                        <a href="#" className="close">&times;</a>
                         <Txt1 currentStep={this.state.currentStep} />
                         <Txt2 currentStep={this.state.currentStep} />
                         <Txt3 currentStep={this.state.currentStep} paymentType={this.state.paymentType} />

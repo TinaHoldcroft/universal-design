@@ -16,6 +16,7 @@
     background-color: $white;
     background-color: $yellow;
     box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38), -2px -2px 8px hsl(0deg 0% 0% / 0.1);
+    color: $black;
     ::selection {
         background: $white;
     }
@@ -54,12 +55,13 @@
         margin-top: 0;
     }
     @media only screen and (max-width: 565px) {
-        padding: 2rem;
         margin: 0;
         left: 0;
         width: 100%;
+
         box-shadow: none;
     }
+    color: $black;
     label,
     legend {
         text-transform: uppercase;
@@ -205,6 +207,7 @@ fieldset {
     h2 {
         font-weight: 700;
         font-size: 1.5em;
+        text-transform: capitalize;
     }
     h3 {
         font-weight: 600;
@@ -259,13 +262,38 @@ fieldset {
         opacity: 1;
     }
 }
-.close {
-    text-decoration: none;
+#closeForm {
     position: absolute;
+    top: 50vh;
+    margin-top: -13rem;
+    left: 50vw;
+    margin-left: 32.5rem;
+    text-decoration: none;
     font-size: 3em;
-    top: 0;
-    right: 1.1rem;
+    color: $black;
+    z-index: 99;
     &:hover {
         opacity: 0.5;
     }
+    @media only screen and (max-width: 1160px) {
+        margin-top: -19rem;
+        margin-left: 14rem;
+    }
+    @media only screen and (max-height: 750px) {
+        top: 10rem;
+        margin-top: 0;
+    }
+    @media only screen and (max-width: 750px) {
+        top: 5rem;
+        margin-top: 0;
+    }
+    @media only screen and (max-width: 565px) {
+//
+    }
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
 }

@@ -1,8 +1,8 @@
 .mode-wrapper {
     position: absolute;
     right: 6rem;
+    background-color: transparent;
     border: solid 2px $yellow;
-    background-color: $white;
     @include flex(row nowrap, center, center, center, center, 0);
     cursor: pointer;
     .dark,
@@ -14,22 +14,27 @@
         text-transform: uppercase;
     }
 }
+.float-bg {
+    background-color: $yellow;
+    width: 5rem;
+    height: 1.5em;
+    z-index: -1;
+    left: 0;
+}
 [dark] {
-    .mode-wrapper {
-        background-color: $black;
-    }
-    .mode-wrapper .dark {
-        background-color: $yellow;
+    .dark {
         color: $black;
-        transition: 0.3s;
+    }
+    .float-bg {
+        position: absolute;
+        margin-left: 0;
+        transition: margin 0.5s;
     }
 }
 [light] {
-    .mode-wrapper {
-        background-color: $white;
-    }
-    .mode-wrapper .light {
-        background-color: $yellow;
-        transition: 0.3s;
+    .float-bg {
+        margin-left: 5.1rem;
+        position: absolute;
+        transition: margin 0.5s;
     }
 }

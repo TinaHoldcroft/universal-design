@@ -5,7 +5,7 @@ export default function Step3(props) {
     if (props.paymentType === 'vipps') {
         return (
             <div className='vipps-page'>
-                <img id='vipps-orange' src='/vipps-orange.svg' alt='vipps logo' />
+                <img id='vipps-orange' src='/vipps.svg' alt='vipps logo' />
                 <h2>pay with Vipps</h2>
                 <h3>{props.amount} kr {props.frequency}</h3>
                 <div className='input-group'>

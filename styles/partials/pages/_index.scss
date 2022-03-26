@@ -5,30 +5,6 @@
     @media only screen and (max-width: 1200px) {
         @include flex(column nowrap, center, stretch, auto, flex-start, 2rem);
     }
-    .card-container {
-        @include flex(row nowrap, center, stretch, auto, center, 4rem);
-        background-color: #f4f4f4;
-        padding: 5rem 0;
-        width: calc(100% + 15rem);
-        margin: 0 0 10rem -7.5rem;
-        @media only screen and (max-width: 1200px) {
-            @include flex(column wrap, center, stretch, auto, center, 4rem);
-            margin: 0;
-            width: 100%;
-        }
-    }
-    .tile-container {
-        @include flex(column nowrap, space-between, flex-start, auto, center, 2rem);
-        @media only screen and (max-width: 1000px) {
-            @include flex(column nowrap, space-between, flex-start, auto, center, 0);
-        }
-        .sub {
-            @include flex(row nowrap, space-between, flex-start, auto, center, 3rem);
-            @media only screen and (max-width: 1000px) {
-                @include flex(column nowrap, space-between, flex-start, auto, center, 0);
-            }
-        }
-    }
 }
 .hero-index {
     @include flex(row wrap, center, center, center, center, 2rem 5vw);
@@ -45,7 +21,6 @@
         width: 100%;
         max-width: 28rem;
         .small {
-     
             font-size: 0.7em;
             color: #666667;
             width: 100%;
@@ -66,17 +41,20 @@
     .btn-group {
         @include flex(row nowrap, flex-start, flex-start, flex-start, flex-start, 1rem);
     }
-    img {
+    .img img {
         width: 100%;
-        max-height: 30rem;
+        height: 30rem;
     }
 }
-//temporary
-.images {
-    @include flex(row wrap, space-between, flex-start, auto, center, 5rem);
-    max-width: 1280px;
-    img {
-        width: 20rem;
-        height: auto;
+[dark] {
+    .hero-index .txt .small {
+        color: #ADBAC7;
+    }
+    .negative {
+        @include BTN(#34404d, 10rem, 2.4rem, 0.8em, #536579);
+        color: $white !important;
+        button {
+            color: #ADBAC7;
+        }
     }
 }

@@ -51,13 +51,17 @@ h5,
 li {
     text-transform: capitalize;
 }
-[dark]  {
-    body, a, i {
-        color: $white;
+[dark] {
+    body,
+    a,
+    i {
+        color: #adbac7;
     }
 }
 [light] {
-    body, a, i {
+    body,
+    a,
+    i {
         color: $black;
     }
 }

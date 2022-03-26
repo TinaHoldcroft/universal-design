@@ -1,148 +1,171 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="665" height="809" viewBox="0 0 665 809">
-	<g id="Group_345" data-name="Group 345" transform="translate(8324 -5232)">
-	  <g id="Group_129" data-name="Group 129" transform="translate(-7995 5836)">
-		<g id="Group_3" data-name="Group 3">
-		  <circle id="Ellipse_14" data-name="Ellipse 14" cx="5" cy="5" r="5" transform="translate(326)" fill="#ffd500"/>
-		  <circle id="Ellipse_15" data-name="Ellipse 15" cx="5" cy="5" r="5" transform="translate(296)" fill="#ffd500"/>
-		  <circle id="Ellipse_16" data-name="Ellipse 16" cx="5" cy="5" r="5" transform="translate(267)" fill="#ffd500"/>
-		  <circle id="Ellipse_17" data-name="Ellipse 17" cx="5" cy="5" r="5" transform="translate(237)" fill="#ffd500"/>
-		  <circle id="Ellipse_18" data-name="Ellipse 18" cx="5" cy="5" r="5" transform="translate(207)" fill="#ffd500"/>
-		  <circle id="Ellipse_19" data-name="Ellipse 19" cx="5" cy="5" r="5" transform="translate(178)" fill="#ffd500"/>
-		  <circle id="Ellipse_20" data-name="Ellipse 20" cx="5" cy="5" r="5" transform="translate(148)" fill="#ffd500"/>
-		  <circle id="Ellipse_21" data-name="Ellipse 21" cx="5" cy="5" r="5" transform="translate(119)" fill="#ffd500"/>
-		  <circle id="Ellipse_22" data-name="Ellipse 22" cx="5" cy="5" r="5" transform="translate(89)" fill="#ffd500"/>
-		  <circle id="Ellipse_23" data-name="Ellipse 23" cx="5" cy="5" r="5" transform="translate(59)" fill="#ffd500"/>
-		  <circle id="Ellipse_24" data-name="Ellipse 24" cx="5" cy="5" r="5" transform="translate(30)" fill="#ffd500"/>
-		  <circle id="Ellipse_25" data-name="Ellipse 25" cx="5" cy="5" r="5" fill="#ffd500"/>
-		</g>
-		<g id="Group_4" data-name="Group 4" transform="translate(0 26)">
-		  <circle id="Ellipse_14-2" data-name="Ellipse 14" cx="5" cy="5" r="5" transform="translate(326)" fill="#ffd500"/>
-		  <circle id="Ellipse_15-2" data-name="Ellipse 15" cx="5" cy="5" r="5" transform="translate(296)" fill="#ffd500"/>
-		  <circle id="Ellipse_16-2" data-name="Ellipse 16" cx="5" cy="5" r="5" transform="translate(267)" fill="#ffd500"/>
-		  <circle id="Ellipse_17-2" data-name="Ellipse 17" cx="5" cy="5" r="5" transform="translate(237)" fill="#ffd500"/>
-		  <circle id="Ellipse_18-2" data-name="Ellipse 18" cx="5" cy="5" r="5" transform="translate(207)" fill="#ffd500"/>
-		  <circle id="Ellipse_19-2" data-name="Ellipse 19" cx="5" cy="5" r="5" transform="translate(178)" fill="#ffd500"/>
-		  <circle id="Ellipse_20-2" data-name="Ellipse 20" cx="5" cy="5" r="5" transform="translate(148)" fill="#ffd500"/>
-		  <circle id="Ellipse_21-2" data-name="Ellipse 21" cx="5" cy="5" r="5" transform="translate(119)" fill="#ffd500"/>
-		  <circle id="Ellipse_22-2" data-name="Ellipse 22" cx="5" cy="5" r="5" transform="translate(89)" fill="#ffd500"/>
-		  <circle id="Ellipse_23-2" data-name="Ellipse 23" cx="5" cy="5" r="5" transform="translate(59)" fill="#ffd500"/>
-		  <circle id="Ellipse_24-2" data-name="Ellipse 24" cx="5" cy="5" r="5" transform="translate(30)" fill="#ffd500"/>
-		  <circle id="Ellipse_25-2" data-name="Ellipse 25" cx="5" cy="5" r="5" fill="#ffd500"/>
-		</g>
-		<g id="Group_5" data-name="Group 5" transform="translate(0 52)">
-		  <circle id="Ellipse_14-3" data-name="Ellipse 14" cx="5" cy="5" r="5" transform="translate(326)" fill="#ffd500"/>
-		  <circle id="Ellipse_15-3" data-name="Ellipse 15" cx="5" cy="5" r="5" transform="translate(296)" fill="#ffd500"/>
-		  <circle id="Ellipse_16-3" data-name="Ellipse 16" cx="5" cy="5" r="5" transform="translate(267)" fill="#ffd500"/>
-		  <circle id="Ellipse_17-3" data-name="Ellipse 17" cx="5" cy="5" r="5" transform="translate(237)" fill="#ffd500"/>
-		  <circle id="Ellipse_18-3" data-name="Ellipse 18" cx="5" cy="5" r="5" transform="translate(207)" fill="#ffd500"/>
-		  <circle id="Ellipse_19-3" data-name="Ellipse 19" cx="5" cy="5" r="5" transform="translate(178)" fill="#ffd500"/>
-		  <circle id="Ellipse_20-3" data-name="Ellipse 20" cx="5" cy="5" r="5" transform="translate(148)" fill="#ffd500"/>
-		  <circle id="Ellipse_21-3" data-name="Ellipse 21" cx="5" cy="5" r="5" transform="translate(119)" fill="#ffd500"/>
-		  <circle id="Ellipse_22-3" data-name="Ellipse 22" cx="5" cy="5" r="5" transform="translate(89)" fill="#ffd500"/>
-		  <circle id="Ellipse_23-3" data-name="Ellipse 23" cx="5" cy="5" r="5" transform="translate(59)" fill="#ffd500"/>
-		  <circle id="Ellipse_24-3" data-name="Ellipse 24" cx="5" cy="5" r="5" transform="translate(30)" fill="#ffd500"/>
-		  <circle id="Ellipse_25-3" data-name="Ellipse 25" cx="5" cy="5" r="5" fill="#ffd500"/>
-		</g>
-		<g id="Group_6" data-name="Group 6" transform="translate(0 78)">
-		  <circle id="Ellipse_14-4" data-name="Ellipse 14" cx="5" cy="5" r="5" transform="translate(326)" fill="#ffd500"/>
-		  <circle id="Ellipse_15-4" data-name="Ellipse 15" cx="5" cy="5" r="5" transform="translate(296)" fill="#ffd500"/>
-		  <circle id="Ellipse_16-4" data-name="Ellipse 16" cx="5" cy="5" r="5" transform="translate(267)" fill="#ffd500"/>
-		  <circle id="Ellipse_17-4" data-name="Ellipse 17" cx="5" cy="5" r="5" transform="translate(237)" fill="#ffd500"/>
-		  <circle id="Ellipse_18-4" data-name="Ellipse 18" cx="5" cy="5" r="5" transform="translate(207)" fill="#ffd500"/>
-		  <circle id="Ellipse_19-4" data-name="Ellipse 19" cx="5" cy="5" r="5" transform="translate(178)" fill="#ffd500"/>
-		  <circle id="Ellipse_20-4" data-name="Ellipse 20" cx="5" cy="5" r="5" transform="translate(148)" fill="#ffd500"/>
-		  <circle id="Ellipse_21-4" data-name="Ellipse 21" cx="5" cy="5" r="5" transform="translate(119)" fill="#ffd500"/>
-		  <circle id="Ellipse_22-4" data-name="Ellipse 22" cx="5" cy="5" r="5" transform="translate(89)" fill="#ffd500"/>
-		  <circle id="Ellipse_23-4" data-name="Ellipse 23" cx="5" cy="5" r="5" transform="translate(59)" fill="#ffd500"/>
-		  <circle id="Ellipse_24-4" data-name="Ellipse 24" cx="5" cy="5" r="5" transform="translate(30)" fill="#ffd500"/>
-		  <circle id="Ellipse_25-4" data-name="Ellipse 25" cx="5" cy="5" r="5" fill="#ffd500"/>
-		</g>
-		<g id="Group_7" data-name="Group 7" transform="translate(0 104)">
-		  <circle id="Ellipse_14-5" data-name="Ellipse 14" cx="5" cy="5" r="5" transform="translate(326)" fill="#ffd500"/>
-		  <circle id="Ellipse_15-5" data-name="Ellipse 15" cx="5" cy="5" r="5" transform="translate(296)" fill="#ffd500"/>
-		  <circle id="Ellipse_16-5" data-name="Ellipse 16" cx="5" cy="5" r="5" transform="translate(267)" fill="#ffd500"/>
-		  <circle id="Ellipse_17-5" data-name="Ellipse 17" cx="5" cy="5" r="5" transform="translate(237)" fill="#ffd500"/>
-		  <circle id="Ellipse_18-5" data-name="Ellipse 18" cx="5" cy="5" r="5" transform="translate(207)" fill="#ffd500"/>
-		  <circle id="Ellipse_19-5" data-name="Ellipse 19" cx="5" cy="5" r="5" transform="translate(178)" fill="#ffd500"/>
-		  <circle id="Ellipse_20-5" data-name="Ellipse 20" cx="5" cy="5" r="5" transform="translate(148)" fill="#ffd500"/>
-		  <circle id="Ellipse_21-5" data-name="Ellipse 21" cx="5" cy="5" r="5" transform="translate(119)" fill="#ffd500"/>
-		  <circle id="Ellipse_22-5" data-name="Ellipse 22" cx="5" cy="5" r="5" transform="translate(89)" fill="#ffd500"/>
-		  <circle id="Ellipse_23-5" data-name="Ellipse 23" cx="5" cy="5" r="5" transform="translate(59)" fill="#ffd500"/>
-		  <circle id="Ellipse_24-5" data-name="Ellipse 24" cx="5" cy="5" r="5" transform="translate(30)" fill="#ffd500"/>
-		  <circle id="Ellipse_25-5" data-name="Ellipse 25" cx="5" cy="5" r="5" fill="#ffd500"/>
-		</g>
-		<g id="Group_8" data-name="Group 8" transform="translate(0 130)">
-		  <circle id="Ellipse_14-6" data-name="Ellipse 14" cx="5" cy="5" r="5" transform="translate(326)" fill="#ffd500"/>
-		  <circle id="Ellipse_15-6" data-name="Ellipse 15" cx="5" cy="5" r="5" transform="translate(296)" fill="#ffd500"/>
-		  <circle id="Ellipse_16-6" data-name="Ellipse 16" cx="5" cy="5" r="5" transform="translate(267)" fill="#ffd500"/>
-		  <circle id="Ellipse_17-6" data-name="Ellipse 17" cx="5" cy="5" r="5" transform="translate(237)" fill="#ffd500"/>
-		  <circle id="Ellipse_18-6" data-name="Ellipse 18" cx="5" cy="5" r="5" transform="translate(207)" fill="#ffd500"/>
-		  <circle id="Ellipse_19-6" data-name="Ellipse 19" cx="5" cy="5" r="5" transform="translate(178)" fill="#ffd500"/>
-		  <circle id="Ellipse_20-6" data-name="Ellipse 20" cx="5" cy="5" r="5" transform="translate(148)" fill="#ffd500"/>
-		  <circle id="Ellipse_21-6" data-name="Ellipse 21" cx="5" cy="5" r="5" transform="translate(119)" fill="#ffd500"/>
-		  <circle id="Ellipse_22-6" data-name="Ellipse 22" cx="5" cy="5" r="5" transform="translate(89)" fill="#ffd500"/>
-		  <circle id="Ellipse_23-6" data-name="Ellipse 23" cx="5" cy="5" r="5" transform="translate(59)" fill="#ffd500"/>
-		  <circle id="Ellipse_24-6" data-name="Ellipse 24" cx="5" cy="5" r="5" transform="translate(30)" fill="#ffd500"/>
-		  <circle id="Ellipse_25-6" data-name="Ellipse 25" cx="5" cy="5" r="5" fill="#ffd500"/>
-		</g>
-		<g id="Group_9" data-name="Group 9" transform="translate(0 156)">
-		  <circle id="Ellipse_14-7" data-name="Ellipse 14" cx="5" cy="5" r="5" transform="translate(326)" fill="#ffd500"/>
-		  <circle id="Ellipse_15-7" data-name="Ellipse 15" cx="5" cy="5" r="5" transform="translate(296)" fill="#ffd500"/>
-		  <circle id="Ellipse_16-7" data-name="Ellipse 16" cx="5" cy="5" r="5" transform="translate(267)" fill="#ffd500"/>
-		  <circle id="Ellipse_17-7" data-name="Ellipse 17" cx="5" cy="5" r="5" transform="translate(237)" fill="#ffd500"/>
-		  <circle id="Ellipse_18-7" data-name="Ellipse 18" cx="5" cy="5" r="5" transform="translate(207)" fill="#ffd500"/>
-		  <circle id="Ellipse_19-7" data-name="Ellipse 19" cx="5" cy="5" r="5" transform="translate(178)" fill="#ffd500"/>
-		  <circle id="Ellipse_20-7" data-name="Ellipse 20" cx="5" cy="5" r="5" transform="translate(148)" fill="#ffd500"/>
-		  <circle id="Ellipse_21-7" data-name="Ellipse 21" cx="5" cy="5" r="5" transform="translate(119)" fill="#ffd500"/>
-		  <circle id="Ellipse_22-7" data-name="Ellipse 22" cx="5" cy="5" r="5" transform="translate(89)" fill="#ffd500"/>
-		  <circle id="Ellipse_23-7" data-name="Ellipse 23" cx="5" cy="5" r="5" transform="translate(59)" fill="#ffd500"/>
-		  <circle id="Ellipse_24-7" data-name="Ellipse 24" cx="5" cy="5" r="5" transform="translate(30)" fill="#ffd500"/>
-		  <circle id="Ellipse_25-7" data-name="Ellipse 25" cx="5" cy="5" r="5" fill="#ffd500"/>
-		</g>
-	  </g>
-	  <line id="Line_19" data-name="Line 19" x2="457" transform="translate(-8238.5 5865.5)" fill="none" stroke="#000" stroke-width="2"/>
-	  <g id="humaaan-2" transform="translate(-8165.298 5399.482)">
-		<g id="Head_Front" data-name="Head/Front" transform="translate(16.099 -8.671)">
-		  <g id="Head" transform="translate(152.324 47.072)">
-			<path id="Head-2" data-name="Head" d="M0,90.426l10.232-47.7C4.526,36.023.663,27.812,1.308,18.612,3.169-7.9,40.061-2.065,47.236,11.314s6.324,47.317-2.95,49.709c-3.7.954-11.578-1.382-19.6-6.217l5.034,35.62Z" transform="translate(0 0)" fill="#fff" stroke="#000" stroke-width="2"/>
-		  </g>
-		  <path id="hair" d="M182.62,42.965c-3.917-.643-14.465-1.084-16.41-1.084-1.243,0-2.59.284-3.326-.858-.6-.935-.382-2.516-.562-3.6-.209-1.26-.506-2.5-.806-3.745a38.086,38.086,0,0,0-3.953-10.044,30.869,30.869,0,0,0-14.631-13.249c-6.926-2.978-14.763-3.66-22.212-3.056-7.972.646-15.189,3.279-22.715,5.756a47.6,47.6,0,0,1-22.187,2.137c-7.558-1.161-13.27-5.259-19.645-9.148C49.646,2.091,42.187-.513,34.471.085c-7.2.559-13.84,3.534-19.8,7.507C9.1,11.31,4.506,15.783,1.91,22.079c-2.792,6.772-2.79,14.205,1.8,20.19C10.368,50.944,22.725,53.187,33,52.964a55.954,55.954,0,0,0,17.4-3.189c7.487-2.634,13.957-7.1,20.961-10.721a54.536,54.536,0,0,1,10.246-4.1c3.456-.976,6.86-1.424,9.989.664,3.31,2.209,6.276,4.379,10.063,5.762a32.447,32.447,0,0,0,11.351,2.039c7.53-.058,14.953-2.405,22.267-3.977,5.964-1.282,12.346-2.559,18.426-1.327,2.537.514,6.243,1.576,7.16,4.213-15.424,2.8-21.481,21.876-17.133,35.882,2.347,7.56,16.453,16.4,21.938,12.423,3.475-2.518,1.365-5.823,0-8.005-2.615-4.179-3.509-9.546,1.329-12.456,4.173-2.509,8.561,3.449,8.644,3.443,1.147-.09,11.058-5.7,17.886-13.878,6.736.4,7.758-4.043,6.15-7.677S188.032,43.854,182.62,42.965Z" transform="translate(0 0)" fill="#ffd500" stroke="#000" stroke-width="2"/>
-		</g>
-		<g id="Bottom_Skinny_Jeans_1" data-name="Bottom/Skinny Jeans 1" transform="translate(8.955 231.64)">
-		  <path id="Leg" d="M0,0,92.021,153.882l68.99,130.094h14.86L60.278,0Z" transform="translate(152.037 0)" fill="#fff" stroke="#000" stroke-width="2"/>
-		  <g id="Right_Shoe" data-name="Right Shoe" transform="translate(300.646 246.504)">
-			<path id="shoe" d="M5.54,6.155a2.477,2.477,0,0,0-3.177,1.67L0,16.155a79.6,79.6,0,0,0,1.116,9.779H70.964s2.723-9-3.143-9.721-9.746-1.3-9.746-1.3L25.61.44a1.238,1.238,0,0,0-1.649.659L21.874,6.162S16.444,8.7,13.049,8.7Z" transform="translate(1.238 23.615)" fill="#ccc" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
-		  </g>
-		  <path id="Pant" d="M157.152,263.144l28.657-8.671s-18.833-56.314-46.165-123.944S80.937,0,80.937,0H0S34.882,79.565,73.96,144.589,157.152,263.144,157.152,263.144Z" transform="translate(136.736 0)" stroke="#000" stroke-width="2"/>
-		  <path id="Leg-2" data-name="Leg" d="M140.84,0c-8.685,54.075-25.436,123.162-27.017,125.294Q112.242,127.426,0,163.445l3.21,13.107q133.848-19.317,141.053-29.974c7.2-10.657,43.18-94.845,57.114-146.578Z" transform="translate(5.15 0)" fill="#fff" stroke="#000" stroke-width="2"/>
-		  <path id="Pant-2" data-name="Pant" d="M0,152.115l5.654,21.11q100.111,8.782,122.68-12.692T179.778,0H102.6Q84.305,113.87,82.144,118.65T0,152.115Z" transform="translate(31.453)" stroke="#000" stroke-width="2"/>
-		  <g id="Left_Shoe" data-name="Left Shoe" transform="matrix(0.174, 0.985, -0.985, 0.174, 20.354, 153.595)">
-			<path id="shoe-2" data-name="shoe" d="M4.474,5.033A2,2,0,0,0,1.908,6.381L0,13.106A64.242,64.242,0,0,0,.9,21H57.3s2.2-7.268-2.538-7.848-7.87-1.047-7.87-1.047L20.68.419a1,1,0,0,0-1.332.532L17.663,5.039s-4.385,2.046-7.127,2.046Z" transform="translate(0 -0.332)" fill="#ccc" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
-		  </g>
-		</g>
-		<g id="Body_Long_Sleeve_1" data-name="Body/Long Sleeve 1" transform="translate(69.552 101.575)">
-		  <path id="Skin" d="M1.519,111.326c-1.382-.853-2.9-4.062.761-6.571,9.113-6.25,22.243-17.188,24.018-20.788C29.927,76.6,42.286,4.827,42.286,4.827l25.879.1S44.2,82.326,42.286,87.06c-2.866,7.1,3.2,17.922,5.791,23.736-4.087,1.829-5.986-.506-8.065-2.842-2.216-2.489-4.638-4.979-10.135-2.42-7.035,3.274-12.851,8.471-19.784,8.47A16.083,16.083,0,0,1,1.519,111.326ZM222.826,41.68l-36.48-21.513L198,0,233.08,34.232q15.311,6.532,25.09,14.426c1.467,1.769,3.063,5.158-3.835,3.642s-14.223-2.8-15.519-.559,2.523,5.682.127,8.62a.906.906,0,0,1-.735.351Q234.906,60.714,222.826,41.68Z" transform="translate(0 110.397)" fill="#fff" stroke="#000" stroke-width="2"/>
-		  <path id="Coat_Back" data-name="Coat Back" d="M0,2.764,10.508,0Q44.08,66.429,117.651,116.682L86.745,161.733C36.312,112.333,3.285,59.7,0,2.764Z" transform="matrix(0.996, 0.087, -0.087, 0.996, 116.072, 3.852)" fill="#ffd500" stroke="#000" stroke-width="2"/>
-		  <path id="Shirt" d="M0,141.213H95.357S62.219,60.62,62.219,4.287L33.455,0C10.848,36.367,4.464,81.141,0,141.213Z" transform="translate(69.149 2)" fill="#ccc" stroke="#000" stroke-width="2"/>
-		  <path id="Coat_Front" data-name="Coat Front" d="M0,182.091C10.429,64.408,76.167,0,76.167,0l.022.02L76.2,0h1.878c3.37.116,10.266.418,10.266.418L95.3,20.287c1.1,36.335,12.881,146.451,12.881,146.451H45.759q.159,7.573.719,15.353Z" transform="translate(25.805 0)" fill="#ffd500" stroke="#000" stroke-width="2"/>
-		  <path id="Shade" d="M17.466,61.314H.077A316.554,316.554,0,0,1,4.782,0a333.183,333.183,0,0,0,4.2,34.294c2.265,12.274,5.121,21.364,8.488,27.018Z" transform="translate(71.498 105.912)" fill="#c2a405" stroke="#000" stroke-width="2"/>
-		  <path id="Light" d="M0,14.333,30.823,0V14.333Z" transform="translate(85.386 114.493)" fill="#ccc" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
-		</g>
-	  </g>
-	  <line id="Line_18" data-name="Line 18" x2="138" y2="266" transform="translate(-7851.5 5661.5)" fill="none" stroke="#000" stroke-width="2"/>
-	  <line id="Line_20" data-name="Line 20" x2="20" y2="17.714" transform="matrix(0.848, 0.53, -0.53, 0.848, -7809.161, 5338.863)" fill="none" stroke="#000" stroke-width="2"/>
-	  <line id="Line_21" data-name="Line 21" y1="17.714" x2="20" transform="matrix(0.848, 0.53, -0.53, 0.848, -7809.161, 5338.863)" fill="none" stroke="#000" stroke-width="2"/>
-	  <line id="Line_22" data-name="Line 22" x2="20" y2="17.714" transform="matrix(0.848, 0.53, -0.53, 0.848, -7809.161, 5338.863)" fill="none" stroke="#000" stroke-width="2"/>
-	  <line id="Line_23" data-name="Line 23" x2="20" y2="17.714" transform="matrix(0.848, -0.53, 0.53, 0.848, -8282.136, 5776.978)" fill="none" stroke="#000" stroke-width="2"/>
-	  <line id="Line_24" data-name="Line 24" y1="17.714" x2="20" transform="matrix(0.848, -0.53, 0.53, 0.848, -8282.136, 5776.978)" fill="none" stroke="#000" stroke-width="2"/>
-	  <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(-8256 5554.379)" fill="#ffd500" stroke="#ffd500" stroke-width="2">
-		<circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
-		<circle cx="7.5" cy="7.5" r="6.5" fill="none"/>
-	  </g>
-	  <line id="Line_26" data-name="Line 26" x2="138" y2="266" transform="translate(-7851.5 5661.5)" fill="none" stroke="#000" stroke-width="2"/>
-	  <circle id="Oval" cx="41" cy="41" r="41" transform="translate(-8027 5232)" fill="#e3e3e3"/>
-	  <path id="Polygon" d="M49,98,98,49,49,0,0,49Z" transform="translate(-8213 5943)" fill="#e3e3e3"/>
-	  <path id="Polygon-2" data-name="Polygon" d="M24,48,48,24,24,0,0,24Z" transform="translate(-8324 5303)" fill="rgba(255,213,0,0.98)"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 579.5 612.2" style="enable-background:new 0 0 579.5 612.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFD500;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;}
+	.st2{fill:#FFFFFF;stroke:#000000;stroke-width:2;}
+	.st3{fill:#FFD500;stroke:#000000;stroke-width:2;}
+	.st4{fill:#CCCCCC;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st5{stroke:#000000;stroke-width:2;}
+	.st6{fill:#CCCCCC;stroke:#000000;stroke-width:2.0005;stroke-miterlimit:10.0025;}
+	.st7{fill:#FFD500;stroke:#000000;stroke-width:1.9996;stroke-miterlimit:3.9992;}
+	.st8{fill:#CCCCCC;stroke:#000000;stroke-width:2;}
+	.st9{fill:#C2A405;stroke:#000000;stroke-width:2;}
+</style>
+<g id="Group_129" transform="translate(-7995 5836)">
+	<g id="Group_3">
+		<circle id="Ellipse_14" class="st0" cx="8569.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_15" class="st0" cx="8539.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_16" class="st0" cx="8510.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_17" class="st0" cx="8480.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_18" class="st0" cx="8450.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_19" class="st0" cx="8421.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_20" class="st0" cx="8391.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_21" class="st0" cx="8362.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_22" class="st0" cx="8332.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_23" class="st0" cx="8302.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_24" class="st0" cx="8273.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_25" class="st0" cx="8243.5" cy="-5384.8" r="5"/>
 	</g>
-  </svg>
-  
+	<g id="Group_4" transform="translate(0 26)">
+		<circle id="Ellipse_14-2" class="st0" cx="8569.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_15-2" class="st0" cx="8539.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_16-2" class="st0" cx="8510.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_17-2" class="st0" cx="8480.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_18-2" class="st0" cx="8450.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_19-2" class="st0" cx="8421.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_20-2" class="st0" cx="8391.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_21-2" class="st0" cx="8362.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_22-2" class="st0" cx="8332.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_23-2" class="st0" cx="8302.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_24-2" class="st0" cx="8273.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_25-2" class="st0" cx="8243.5" cy="-5384.8" r="5"/>
+	</g>
+	<g id="Group_5" transform="translate(0 52)">
+		<circle id="Ellipse_14-3" class="st0" cx="8569.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_15-3" class="st0" cx="8539.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_16-3" class="st0" cx="8510.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_17-3" class="st0" cx="8480.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_18-3" class="st0" cx="8450.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_19-3" class="st0" cx="8421.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_20-3" class="st0" cx="8391.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_21-3" class="st0" cx="8362.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_22-3" class="st0" cx="8332.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_23-3" class="st0" cx="8302.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_24-3" class="st0" cx="8273.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_25-3" class="st0" cx="8243.5" cy="-5384.8" r="5"/>
+	</g>
+	<g id="Group_6" transform="translate(0 78)">
+		<circle id="Ellipse_14-4" class="st0" cx="8569.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_15-4" class="st0" cx="8539.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_16-4" class="st0" cx="8510.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_17-4" class="st0" cx="8480.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_18-4" class="st0" cx="8450.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_19-4" class="st0" cx="8421.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_20-4" class="st0" cx="8391.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_21-4" class="st0" cx="8362.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_22-4" class="st0" cx="8332.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_23-4" class="st0" cx="8302.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_24-4" class="st0" cx="8273.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_25-4" class="st0" cx="8243.5" cy="-5384.8" r="5"/>
+	</g>
+	<g id="Group_7" transform="translate(0 104)">
+		<circle id="Ellipse_14-5" class="st0" cx="8569.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_15-5" class="st0" cx="8539.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_16-5" class="st0" cx="8510.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_17-5" class="st0" cx="8480.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_18-5" class="st0" cx="8450.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_19-5" class="st0" cx="8421.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_20-5" class="st0" cx="8391.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_21-5" class="st0" cx="8362.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_22-5" class="st0" cx="8332.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_23-5" class="st0" cx="8302.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_24-5" class="st0" cx="8273.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_25-5" class="st0" cx="8243.5" cy="-5384.8" r="5"/>
+	</g>
+	<g id="Group_8" transform="translate(0 130)">
+		<circle id="Ellipse_14-6" class="st0" cx="8569.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_15-6" class="st0" cx="8539.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_16-6" class="st0" cx="8510.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_17-6" class="st0" cx="8480.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_18-6" class="st0" cx="8450.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_19-6" class="st0" cx="8421.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_20-6" class="st0" cx="8391.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_21-6" class="st0" cx="8362.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_22-6" class="st0" cx="8332.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_23-6" class="st0" cx="8302.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_24-6" class="st0" cx="8273.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_25-6" class="st0" cx="8243.5" cy="-5384.8" r="5"/>
+	</g>
+	<g id="Group_9" transform="translate(0 156)">
+		<circle id="Ellipse_14-7" class="st0" cx="8569.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_15-7" class="st0" cx="8539.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_16-7" class="st0" cx="8510.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_17-7" class="st0" cx="8480.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_18-7" class="st0" cx="8450.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_19-7" class="st0" cx="8421.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_20-7" class="st0" cx="8391.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_21-7" class="st0" cx="8362.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_22-7" class="st0" cx="8332.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_23-7" class="st0" cx="8302.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_24-7" class="st0" cx="8273.5" cy="-5384.8" r="5"/>
+		<circle id="Ellipse_25-7" class="st0" cx="8243.5" cy="-5384.8" r="5"/>
+	</g>
+</g>
+<line id="Line_19" class="st1" x1="0" y1="475.7" x2="457" y2="475.7"/>
+<g id="humaaan-2" transform="translate(-8165.298 5399.482)">
+	<g id="Head_Front" transform="translate(16.099 -8.671)">
+		<g id="Head" transform="translate(152.324 47.072)">
+			<path id="Head-2" class="st2" d="M8238.5-5299.4l10.2-47.7c-5.7-6.7-9.6-14.9-8.9-24.1c1.9-26.5,38.8-20.7,45.9-7.3
+				c7.2,13.4,6.3,47.3-3,49.7c-3.7,1-11.6-1.4-19.6-6.2l5,35.6H8238.5z"/>
+		</g>
+		<path id="hair" class="st3" d="M8421.1-5346.8c-3.9-0.6-14.5-1.1-16.4-1.1c-1.2,0-2.6,0.3-3.3-0.9c-0.6-0.9-0.4-2.5-0.6-3.6
+			c-0.2-1.3-0.5-2.5-0.8-3.7c-0.8-3.5-2.2-6.9-4-10c-3.3-5.9-8.4-10.6-14.6-13.2c-6.9-3-14.8-3.7-22.2-3.1c-8,0.6-15.2,3.3-22.7,5.8
+			c-7.1,2.5-14.7,3.2-22.2,2.1c-7.6-1.2-13.3-5.3-19.6-9.1c-6.5-4-14-6.6-21.7-6c-7.2,0.6-13.8,3.5-19.8,7.5
+			c-5.6,3.7-10.2,8.2-12.8,14.5c-2.8,6.8-2.8,14.2,1.8,20.2c6.7,8.7,19,10.9,29.3,10.7c5.9-0.1,11.8-1.2,17.4-3.2
+			c7.5-2.6,14-7.1,21-10.7c3.3-1.7,6.7-3.1,10.2-4.1c3.5-1,6.9-1.4,10,0.7c3.3,2.2,6.3,4.4,10.1,5.8c3.6,1.4,7.5,2,11.4,2
+			c7.5-0.1,15-2.4,22.3-4c6-1.3,12.3-2.6,18.4-1.3c2.5,0.5,6.2,1.6,7.2,4.2c-15.4,2.8-21.5,21.9-17.1,35.9
+			c2.3,7.6,16.5,16.4,21.9,12.4c3.5-2.5,1.4-5.8,0-8c-2.6-4.2-3.5-9.5,1.3-12.5c4.2-2.5,8.6,3.4,8.6,3.4c1.1-0.1,11.1-5.7,17.9-13.9
+			c6.7,0.4,7.8-4,6.1-7.7C8436.6-5341.4,8426.5-5346,8421.1-5346.8z"/>
+	</g>
+	<g id="Bottom_Skinny_Jeans_1" transform="translate(8.955 231.64)">
+		<path id="Leg" class="st2" d="M8390.5-5389.8l92,153.9l69,130.1h14.9l-115.6-284H8390.5z"/>
+		<g id="Right_Shoe" transform="translate(300.646 246.504)">
+			<path id="shoe" class="st4" d="M8245.3-5360c-1.3-0.4-2.7,0.3-3.1,1.6c0,0,0,0.1,0,0.1l-2.4,8.3c0.2,3.3,0.5,6.5,1.1,9.8h69.8
+				c0,0,2.7-9-3.1-9.7c-5.9-0.7-9.7-1.3-9.7-1.3l-32.5-14.5c-0.6-0.3-1.4,0-1.6,0.6c0,0,0,0,0,0l-2.1,5.1c0,0-5.4,2.5-8.8,2.5
+				L8245.3-5360z"/>
+		</g>
+		<path id="Pant" class="st5" d="M8532.4-5126.7l28.7-8.7c0,0-18.8-56.3-46.2-123.9s-58.7-130.5-58.7-130.5h-80.9
+			c0,0,34.9,79.6,74,144.6S8532.4-5126.7,8532.4-5126.7z"/>
+		<path id="Leg-2" class="st2" d="M8384.5-5389.8c-8.7,54.1-25.4,123.2-27,125.3c-1.1,1.4-39,14.1-113.8,38.2l3.2,13.1
+			c89.2-12.9,136.2-22.9,141.1-30c7.2-10.7,43.2-94.8,57.1-146.6H8384.5z"/>
+		<path id="Pant-2" class="st5" d="M8270-5237.7l5.7,21.1c66.7,5.9,107.6,1.6,122.7-12.7c15-14.3,32.2-67.8,51.4-160.5h-77.2
+			c-12.2,75.9-19,115.5-20.5,118.6C8350.7-5268,8323.3-5256.8,8270-5237.7z"/>
+		<g id="Left_Shoe" transform="matrix(0.174, 0.985, -0.985, 0.174, 20.354, 153.595)">
+			<path id="shoe-2" class="st6" d="M-3869-9043.5c-1-0.4-2.2,0.2-2.5,1.3c0,0,0,0.1,0,0.1l-1.9,6.7c0.1,2.6,0.4,5.3,0.9,7.9h56.4
+				c0,0,2.2-7.3-2.5-7.8c-4.7-0.6-7.9-1-7.9-1l-26.2-11.7c-0.5-0.2-1.1,0-1.3,0.5c0,0,0,0,0,0l-1.7,4.1c0,0-4.4,2-7.1,2
+				L-3869-9043.5z"/>
+		</g>
+	</g>
+	<g id="Body_Long_Sleeve_1" transform="translate(69.552 101.575)">
+		<path id="Skin" class="st2" d="M8240-5168.1c-1.4-0.9-2.9-4.1,0.8-6.6c9.1-6.2,22.2-17.2,24-20.8c3.6-7.4,16-79.1,16-79.1
+			l25.9,0.1c0,0-24,77.4-25.9,82.1c-2.9,7.1,3.2,17.9,5.8,23.7c-4.1,1.8-6-0.5-8.1-2.8c-2.2-2.5-4.6-5-10.1-2.4
+			c-7,3.3-12.9,8.5-19.8,8.5C8245.5-5165.5,8242.6-5166.4,8240-5168.1z M8461.3-5237.7l-36.5-21.5l11.7-20.2l35.1,34.2
+			c10.2,4.4,18.6,9.2,25.1,14.4c1.5,1.8,3.1,5.2-3.8,3.6c-6.9-1.5-14.2-2.8-15.5-0.6c-1.3,2.2,2.5,5.7,0.1,8.6
+			c-0.2,0.2-0.4,0.4-0.7,0.4C8474.5-5218.7,8469.4-5225,8461.3-5237.7z"/>
+		<path id="Coat_Back" class="st7" d="M8354.3-5383.2l10.7-1.8c18.4,46.1,50.6,87.9,96.6,125.5l-34.7,42.2
+			C8381-5270.9,8352.7-5326.2,8354.3-5383.2z"/>
+		<path id="Shirt" class="st8" d="M8307.6-5246.6h95.4c0,0-33.1-80.6-33.1-136.9l-28.8-4.3
+			C8318.5-5351.4,8312.1-5306.7,8307.6-5246.6z"/>
+		<path id="Coat_Front" class="st3" d="M8264.3-5207.7c10.4-117.7,76.2-182.1,76.2-182.1l0,0l0,0h1.9c3.4,0.1,10.3,0.4,10.3,0.4
+			l7,19.9c1.1,36.3,12.9,146.5,12.9,146.5h-62.4c0.1,5,0.3,10.2,0.7,15.4H8264.3z"/>
+		<path id="Shade" class="st9" d="M8327.5-5222.6h-17.4c-0.4-20.5,1.2-41.1,4.7-61.3c0.8,11.5,2.2,22.9,4.2,34.3
+			C8321.2-5237.3,8324.1-5228.2,8327.5-5222.6L8327.5-5222.6z"/>
+		<path id="Light" class="st4" d="M8323.9-5261l30.8-14.3v14.3H8323.9z"/>
+	</g>
+</g>
+<line id="Line_18" class="st1" x1="387" y1="271.7" x2="525" y2="537.7"/>
+<line id="Line_26" class="st1" x1="387" y1="271.7" x2="525" y2="537.7"/>
+</svg>
