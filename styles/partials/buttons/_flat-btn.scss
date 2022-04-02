@@ -14,3 +14,11 @@
     }
     &:active { transform: scale(1.03); }
 }
+[dark] .flat-btn {
+    background-color: #2e343b;
+    color: $white;
+    &:focus, &:hover {
+        background-color: $yellow;
+
+    }
+}

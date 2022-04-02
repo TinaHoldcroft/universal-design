@@ -81,6 +81,20 @@
         border-radius: 0;
     }
 }
+[dark] .masterform {
+    background-color: $black;
+    box-shadow: -8px -8px 18px 0 rgba(0, 0, 0, 0.55), inset 3px 3px 7px rgba(0, 0, 0, 0.15),
+        inset -3px -3px 7px hsla(0, 0%, 100%, 0.09);
+    label,
+    legend {
+        color: $white;
+    }
+    input,
+    input[type="radio"] {
+        background-color: #2e343b;
+    }
+    //background-color: #2e343b;
+}
 input[type="radio"] {
     position: absolute;
     opacity: 0;
@@ -92,6 +106,7 @@ input[type="radio"] {
     &:focus + label {
         background-color: $yellow;
         box-shadow: 2px 4px 4px hsl(0deg 0% 0% / 0.38);
+        color: black;
     }
 }
 .txt-input-wrapper {
@@ -115,6 +130,30 @@ input[type="radio"] {
         &:active {
             outline: none;
             border: 2px solid $yellow;
+        }
+    }
+}
+[dark] input[type="radio"] {
+    background-color: #2e343b;
+    &:focus,
+    &:active {
+        color: $black;
+    }
+}
+[dark] input[type="number"],
+[dark] input[type="number"]:focus,
+[dark] input[type="number"]:active {
+    -moz-appearance: textfield;
+    appearance: textfield;
+    color: $white!important;
+}
+
+[dark] .txt-input-wrapper {
+    input {
+        background-color: #2e343b;
+        &:focus,
+        &:active {
+            color: $black;
         }
     }
 }
@@ -288,7 +327,7 @@ fieldset {
         margin-top: 0;
     }
     @media only screen and (max-width: 565px) {
-//
+        //
     }
 }
 .float-right {
