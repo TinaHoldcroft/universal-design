@@ -16,7 +16,7 @@
 		}
 	}
 	.particle:nth-child(#{$i}) {
-		animation: particle-animation-#{$i} 60s infinite;
+		animation: particle-animation-#{$i} 70s infinite;
 		$size: random(30) + 5 + px;
 		height: $size;
 		width: $size;
@@ -30,7 +30,7 @@
 	}
 	.particle:nth-child(2n),
 	.particle:nth-child(5n) {
-		background: $light-grey;
+		background-color: $light-grey;
 		border-radius: 0%;
 	}
 	.particle:nth-child(3n) {
@@ -61,13 +61,15 @@
 	}
 }
 [dark] {
-	.particle:nth-child(2n),
-	.particle:nth-child(5n) {
-		background-color: #34404d
-	}
 	.particle:nth-child(1n),
 	.particle:nth-child(4n) {
-		background: darken($yellow, 30%);
+		background-color: #2e343b;
 		border-radius: 50%;
+	}
+	.particle:nth-child(2n),
+	.particle:nth-child(5n) {
+		background-color: transparent;
+		border: solid 2px #adbac7;
+		border-radius: 0%;
 	}
 }

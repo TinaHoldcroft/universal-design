@@ -1,6 +1,6 @@
 function Background(props) {
 
-    const n = 20;
+    const n = 10;
 
     return (
         <div className={"particle-container " + props.class}>
