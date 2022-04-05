@@ -4,6 +4,7 @@ import Background from '../components/background'
 import BTN from '../components/btn'
 import Campaign from '../components/campaign'
 import Card from '../components/card'
+import Loader from '../components/loader'
 import Tile from '../components/tile'
 import Form from './form/form'
 
@@ -11,9 +12,8 @@ const fetcher = (url) => fetch(url).then((res) => res.json())
 
 export default function Home() {
     const { data, error } = useSWR('/api/people', fetcher)
-
     if (error) return <div>Failed to load</div>
-    if (!data) return <div>Loading...</div>
+    if (!data) return  <Loader/>
 
     return (
         <>

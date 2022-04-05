@@ -1,8 +1,21 @@
-.payment img {
-    height: 2rem;
-    width: auto;
+.payment {
+    @include flex(row nowrap, space-between, stretch, auto, flex-start, 1rem);
+    img {
+        height: 2rem;
+        width: auto;
+    }
+    label {
+        height: 3rem;
+    }
+    input {
+        &:checked ~ label,
+        &:focus ~ label,
+        &:focus + label {
+            background-color: transparent !important;
+            box-shadow: none !important;
+        }
+    }
 }
-
 .vipps-approve {
     background-color: $vipps;
     color: $white;
@@ -15,8 +28,15 @@
     float: center;
     width: 30%;
     text-transform: uppercase;
-    &:focus, &:hover {
-        background-color: $white;
+    letter-spacing: 0.175em;
+    &:focus,
+    &:hover {
+        background-color: transparent;
         color: $vipps;
+        font-weight: 900;
+        letter-spacing: 0.125em;
     }
+}
+[light] .avtale-giro img {
+    filter: invert(100%);
 }

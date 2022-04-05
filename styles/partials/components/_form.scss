@@ -83,11 +83,11 @@
 }
 [dark] .masterform {
     background-color: $black;
-    box-shadow: -8px -8px 18px 0 rgba(0, 0, 0, 0.55), inset 3px 3px 7px rgba(0, 0, 0, 0.15),
+    box-shadow: -4px -8px 18px 0 rgba(0, 0, 0, 0.55), inset 3px 3px 7px rgba(0, 0, 0, 0.15),
         inset -3px -3px 7px hsla(0, 0%, 100%, 0.09);
     label,
-    legend {
-        color: $white;
+    legend, p, h1, h2, h3 {
+        color: #adbac7;;
     }
     input,
     input[type="radio"] {
@@ -145,7 +145,7 @@ input[type="radio"] {
 [dark] input[type="number"]:active {
     -moz-appearance: textfield;
     appearance: textfield;
-    color: $white!important;
+    color: #adbac7!important;
 }
 
 [dark] .txt-input-wrapper {
@@ -249,33 +249,39 @@ fieldset {
         text-transform: capitalize;
     }
     h3 {
-        font-weight: 600;
         font-size: 1em;
         margin-top: -0.25rem;
         margin-bottom: 2rem;
-        color: #5614889a;
     }
+    h3, label {
+        font-weight: 600;
+        color: #5614889a;
+    }        
     label {
         text-transform: none;
-        font-weight: 600;
-        font-size: 1.4em;
         letter-spacing: 0em;
-        background-color: #56148817;
-        color: #5614889a;
         height: 3.2rem;
         padding: 0.6rem 0 0 1rem;
     }
     .input-group {
         @include flex(row nowrap, center, center, center, center, 0);
     }
-    input {
+    label, input {
         background-color: #56148817;
+        font-size: 1.4em;
+    }
+    input {
         border: none;
         height: 3.2rem;
         width: 15rem;
         padding: 0.5rem;
         outline: none;
-        font-size: 1.4em;
+    }
+}
+[dark] .vipps-page {
+    input, label {
+        background-color: #adbac71e;
+        color: #adbac7!important;
     }
 }
 .active3 {
